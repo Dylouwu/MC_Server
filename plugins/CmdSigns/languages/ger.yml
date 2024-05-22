@@ -1,0 +1,55 @@
+#Texte die in die Konsole geschrieben werden
+enabled: 'Plugin aktiviert.'
+disabled: 'Plugin deaktiviert.'
+langFileLoaded: 'Die Deutsche Sprachdatei wurde geladen...'
+loadSigns: 'Lade Schilder...'
+loadedSigns: 'Alle Schilder wurden geladen.'
+noSignFound: 'In der Welt <world> bei den Koordinaten X: <x> Y: <y> Z:<z> befindet sich kein Schild. Bitte Schild platzieren und Plugin neu laden.'
+errorCreatingSignFile: 'Konnte die signs.yml Datei im Plugin Ordner nicht erstellen: '
+createSignsFile: 'Keine signs.yml Datei im Plugin Ordner gefunden. signs.yml wird erstellt...'
+logCommandUsage: 'Der Befehl <command> wurde für den Spieler <player> als <executer> ausgefürt.'
+
+#Update Nachrichten
+errorConnectToUpdateServer: 'Fehler beim verbinden auf den Update server...'
+newVersion: '&cEin neüs Update ist verfügbar, aktuelle Version: <current>, neue Version: <update>. Download: <download>'
+
+#Command Output
+helpTitle: '&a-------- &6<plugin> Hilfe &a-------'
+onlyPlayer: '&cEs ist nur Spielern erlaubt den Befehl auszuführen.'
+focusSign: '&cBitte ein Schild anvisieren.'
+cmdBounded: '&aDer Befehl &6/<command> &awurde dem Schild hinzugefügt.'
+noCmdRegistered: '&cAn dieses Schild sind keine Befehle gebunden.'
+removedCmds: '&aErfolgreich alle Befehle von dem Schild entfernt.'
+reloadedPlugin: '&aPlugin erfolgreich neu geladen.'
+unkownCommand: '&cUnbekannter Befehl, probieren einen der Folgenden: '
+priceLess0: '&cPreis muss gleich oder mehr als 0 sein.' 
+priceSet: '&aDer Preis des Schildes wurde auf &6<price> &agesetzt.'
+delaySet: '&aDie Verzögerung wurde auf &6<ticks> Ticks &a(<type>) gesetzt.'
+
+#Command Description inside of the Help menu
+help: '&a- Zeigt dieses Menü.'
+info: '&a- Zeigt einige Infos über das Plugin.'
+addCommand: '&a- Verbindet einen Befehl mit einem Schild. Der Befehl wird ausgeführt von [player|server].'
+removeCommand: '&a- Entfernt alle Befehle von dem fokussierten Schild.'
+reload: '&a- Lädt das Plugin neu.'
+setDelay: '&a- Setzt die verzögerung um ein Schild nochmal anzuklicken auf [value]. [global|player] entscheidet ob diese Verzögerung für alle Spieler ist oder nur für den der das Schild angeklickt hat.'
+blockInfo: '&a- Zeigt Informationen über das anvisierte Schild.'
+setPrice: '&a- Setzt den Preis fürs benutzen des Schildes auf [price].'
+
+#Events
+breakSignWithPermission: '&aEs sind Befehle an das Schild gebunden.'
+breakSign: '&aDu hast nicht die Erlaubnis das Schild zu zerstören.'
+#Mit <remaining> können spieler die verbleibenden Minuten bis zur nächsten Schildernutzung angezeigt werden.
+waitForDelay: '&cDie Befehle des Schildes können erst in <remaining> Minuten erneut ausgeführt werden.'
+enoughMoney: '&aDu hast &6<price>&a bezahlt.'
+notEnoughMoney: '&cDu benötigst &4<price>&c.'
+
+#Diese Nachricht steht bei /cmdsigns info
+translator: '&aÜbersetzung von &6Feli'
+
+#Übersetzung von Blockinfo:
+biWorld: '&aWelt: &6<world>'
+biCoordinates: '&aPosition: &6X:<x> Y:<y> Z:<z>'
+biCommands: '&aBefehle:'
+biDelay: '&aVerzögerung: &6<ticks> &aTicks | &6<type>'
+biPrice: '&aPreis: &6<price>'

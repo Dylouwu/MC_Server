@@ -1,0 +1,55 @@
+#Console Textes
+enabled: 'Plugin enabled'
+disabled: 'Plugin disabled'
+langFileLoaded: 'Loaded the English language file...'
+loadSigns: 'Loading Signs...'
+loadedSigns: 'All Signs loaded.'
+noSignFound: 'At the location X: <x> Y: <y> Z: <z> in the world <world> is no Sign. Place a sign at this Location and reload the plugin.'
+errorCreatingSignFile: 'Could not create the signs.yml file in the plugin folder: '
+createSignsFile: 'No signs.yml file in plugin folder. I will fix this...'
+logCommandUsage: 'Executed command <command> for the Player <player> as <executer>.'
+
+#Update Messages
+errorConnectToUpdateServer: 'Could not connect to Update server...'
+newVersion: '&cA new Version is online, current version: <current>, new version: <update>. Download: <download>'
+
+#Command Output
+helpTitle: '&a-------- &6<plugin> help &a--------'
+onlyPlayer: '&cOnly Players are allowed to use this Command.'
+focusSign: '&cYou have to focus a Sign.'
+cmdBounded: '&aBounded the Command &6/<command> &ato this Sign.'
+noCmdRegistered: '&cThere is no Command Registered for this Sign.'
+removedCmds: '&aAll Commands removed from this sign.'
+reloadedPlugin: '&aPlugin reloaded.'
+unkownCommand: '&cUnknown command, try one of these: '
+priceLess0: '&cPrice must be equals or more than 0.' 
+priceSet: '&aPrice sucessfully set to &6<price>&a.'
+delaySet: '&aDelay was set to &6<ticks> Ticks &a(<type>)'
+
+#Command Description inside of the Help menu
+help: '&a- Shows this menu.'
+info: '&a- Shows some informations about this plugin.'
+addCommand: '&a- Connects a command with the focused sign. The command will be executed by [player|server].'
+removeCommand: '&a- Remove all Commands from the focused sign.'
+reload: '&a- Reload the plugin.'
+setDelay: '&a- Set the Delay of using a CmdSign to [Value] in ticks(20 Ticks = 1 sek). [global|player] will decide if the delay is for every player or only for the player who clicked.'
+blockInfo: '&a- Shows informations about the faced Sign.'
+setPrice: '&a- Sets the price for using the sign to [price].'
+
+#Events
+breakSignWithPermission: '&aThere are commands connected to this sign.'
+breakSign: '&aYou are not allowed to break this sign.'
+#You can use <remaining> to show players their remaining time in minutes
+waitForDelay: '&cWait <remaining> Minutes until you are allowed to click the Sign again.'
+enoughMoney: '&aYou paid &6<price>&a.'
+notEnoughMoney: '&cYou need &4<price>&c.'
+
+#You can read this message at /cmdsigns info
+translator: '&aTranslation by &6Feli'
+
+#Blockinfo Translation
+biWorld: '&aWorld: &6<world>'
+biCoordinates: '&aPosition: &6X:<x> Y:<y> Z:<z>'
+biCommands: '&aCommands:'
+biDelay: '&aDelay: &6<ticks> &aTicks | &6<type>'
+biPrice: '&aPrice: &6<price>'

@@ -1,0 +1,82 @@
+{
+  "uuid": "80920cf5-d832-4696-82ca-486b1830bcfe",
+  "name": "GambinoJetskii",
+  "wins": 12,
+  "losses": 27,
+  "requests": true,
+  "rating": {
+    "sumo": 1293,
+    "POT": 1416,
+    "pauvre": 1349,
+    "mlg": 1417,
+    "SKYYART": 1384,
+    "COMBO": 1404,
+    "CANCER": 1428
+  },
+  "matches": [
+    {
+      "winner": "Hiphicrate",
+      "loser": "GambinoJetskii",
+      "kit": "pauvre",
+      "time": 1621519104491,
+      "duration": 86167,
+      "health": 6.5
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "GambinoJetskii",
+      "kit": "sumo",
+      "time": 1621524995963,
+      "duration": 117093,
+      "health": 10.0
+    },
+    {
+      "winner": "GambinoJetskii",
+      "loser": "Pur1rin",
+      "kit": "sumo",
+      "time": 1621524995963,
+      "duration": 44367,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "GambinoJetskii",
+      "kit": "sumo",
+      "time": 1621524995963,
+      "duration": 19714,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "GambinoJetskii",
+      "kit": "sumo",
+      "time": 1621885376239,
+      "duration": 11697,
+      "health": 10.0
+    },
+    {
+      "winner": "GambinoJetskii",
+      "loser": "Pur1rin",
+      "kit": "mlg",
+      "time": 1624634247517,
+      "duration": 24907,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "GambinoJetskii",
+      "kit": "sumo",
+      "time": 1624634247517,
+      "duration": 27810,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "GambinoJetskii",
+      "kit": "sumo",
+      "time": 1645799411787,
+      "duration": 9116,
+      "health": 10.0
+    }
+  ]
+}

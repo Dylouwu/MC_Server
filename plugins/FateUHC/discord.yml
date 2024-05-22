@@ -1,0 +1,12 @@
+SERVER-LINK-ID: fe2267d5-5f8d-4088-ab0e-167c6e668cf5
+AUTOANNOUNCE:
+  START: false
+  WINNER: false
+  TIME: 60
+  AUTOWHITELIST: false
+Field1: '%gametype%'
+Field2: '%nether%'
+Field3: '%size%'
+Field4: '%scenarios%'
+Field5: '%time%'
+Field6: '%ip%'

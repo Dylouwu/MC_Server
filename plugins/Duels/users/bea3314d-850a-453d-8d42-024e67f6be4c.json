@@ -1,0 +1,55 @@
+{
+  "uuid": "bea3314d-850a-453d-8d42-024e67f6be4c",
+  "name": "Hiphicrate",
+  "wins": 1,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "sumo": 1388,
+    "pauvre": 1414,
+    "COMBO": 1385,
+    "CANCER": 1366
+  },
+  "matches": [
+    {
+      "winner": "Hiphicrate",
+      "loser": "GambinoJetskii",
+      "kit": "pauvre",
+      "time": 1621519104491,
+      "duration": 86167,
+      "health": 6.5
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "Hiphicrate",
+      "kit": "sumo",
+      "time": 1621526045712,
+      "duration": 10505,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "Hiphicrate",
+      "kit": "COMBO",
+      "time": 1621526045712,
+      "duration": 190536,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "Hiphicrate",
+      "kit": "CANCER",
+      "time": 1621885376239,
+      "duration": 15727,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "Hiphicrate",
+      "kit": "CANCER",
+      "time": 1621885376239,
+      "duration": 11791,
+      "health": 10.0
+    }
+  ]
+}

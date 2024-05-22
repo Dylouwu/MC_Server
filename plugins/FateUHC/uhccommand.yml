@@ -1,0 +1,13 @@
+#This is where you can customize the help page for the /uhc command
+UHCCOMMANDHELP:
+  - '&7&m-----------&7[ &a&lUHC HELP &7]&7&m-----------'
+  - '&e/uhc start &7- &funpause queue and start scatter'
+  - '&e/uhc setlobby &7- &fset lobby location (uhc.setlobby)'
+  - '&e/uhc reload &7- &freload uhc configs (uhc.reload)'
+  - '&e/uhc locations &7- &fsee all locations'
+  - '&e/uhc checkrelogg &7- &fcheck relogged players and eliminate them'
+  - '&e/uhc lag,performance,gc &7- &fsee uhc performance'
+  - '&e/uhc stopLoading &7- &fcancel chunks loading'
+  - '&e/uhc reboot <now:time> &7- &freboot server (uhc.reboot)'
+  - '&e/uhc setpvp &7- &fdisable/enable pvp in uhc world (uhc.setpvp)'
+  - '&7&m-----------&7[ &a&lUHC HELP &7]&7&m-----------'

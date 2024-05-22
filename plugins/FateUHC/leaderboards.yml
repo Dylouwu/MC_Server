@@ -1,0 +1,204 @@
+HOLOGRAMS:
+  WINS:
+    LOCATION:
+      X: -1007.7619308437548
+      Y: 117.17459332063544
+      Z: -51.89098098212257
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lTop Wins'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  POINTS:
+    LOCATION:
+      X: -1013.1557499026532
+      Y: 117.13437093785357
+      Z: -51.04071050153793
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lTop Points'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  KILLS:
+    LOCATION:
+      X: -1002.2848184815612
+      Y: 117.12323599539721
+      Z: -51.132264767240876
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lTop Kills'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  DEATHS:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lTop Deaths'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  GAMESPLAYED:
+    LOCATION:
+      X: -1013.1376165957669
+      Y: 120.93452174639326
+      Z: -51.607529516924956
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Games Played'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  KILLSTREAK:
+    LOCATION:
+      X: -1007.6512600420574
+      Y: 120.90318358811493
+      Z: -52.00723670585479
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lTop Kill Steaks'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  APPLESEATEN:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Golden Apples Eaten'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  HEADSUSED:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Golden Heads Used'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  BOWSHOTS:
+    LOCATION:
+      X: -1002.4629657611349
+      Y: 120.5379674039872
+      Z: -51.27161032141257
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Bow Shots'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  GOLD:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Gold Mined'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  IRON:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Iron Mined'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  DIAMOND:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Diamonds Mined'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  REDSTONE:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Redstone Mined'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  EMERALD:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Emeralds Mined'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  LAPIS:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Lapis Mined'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  QUARTZ:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Quartz Mined'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  COAL:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Coal Mined'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  SPAWNERS:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lMost Spawners Mined'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+NODATA:
+- '&cThis leaderboard is'
+- '&c&lEMPTY&c. Be the first'
+- '&cto enter it!'
+LEADERBOARD-FORMAT: '&9<pos>. &e<name>&7: &f<amount>'

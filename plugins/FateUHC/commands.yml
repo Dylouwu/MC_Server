@@ -1,0 +1,315 @@
+regeneratemap:
+  permission: uhc.regeneratemap
+  aliases:
+  - genmap
+  - regmap
+  - newmap
+teleport:
+  permission: uhc.staffteleport
+  aliases:
+  - tp
+  - stafftp
+giveall:
+  permission: uhc.giveall
+  aliases:
+  - uhcgiveall
+unsit:
+  permission: uhc.unsit
+  aliases: []
+builduhckit:
+  permission: ''
+  aliases:
+  - buhck
+serverid:
+  permission: ''
+  aliases:
+  - sid
+clearlag:
+  permission: uhc.clearlag
+  aliases:
+  - clearlagg
+  - cg
+whitelist:
+  permission: uhc.whitelist
+  aliases:
+  - wl
+scenario:
+  permission: ''
+  aliases:
+  - scenarios
+  - uhcscenarios
+autostart:
+  permission: uhc.autostart
+  aliases: []
+bghddev:
+  permission: ''
+  aliases:
+  - bghd
+  - bghddevelopment
+  - fateuhcdebug
+  - fatedebug
+  - debug
+exps:
+  permission: uhc.exps
+  aliases: []
+absorptionlesstest:
+  permission: ''
+  aliases:
+  - absorptiontest
+freeze:
+  permission: uhc.freeze
+  aliases:
+  - ss
+  - screenshare
+  - fatefreeze
+uhc:
+  permission: uhc.edit.commands
+  aliases:
+  - game
+stats:
+  permission: ''
+  aliases:
+  - statistic
+  - viewstats
+fateuhc:
+  permission: ''
+  aliases:
+  - fate
+settings:
+  permission: ''
+  aliases:
+  - playersettings
+  - sounds
+  - scoreboard
+spectatorteleport:
+  permission: uhc.spec.tp
+  aliases:
+  - spectp
+  - uhcspectp
+uhcholograms:
+  permission: uhc.uhcholograms
+  aliases: []
+sendcords:
+  permission: ''
+  aliases:
+  - sendcoord
+  - sc
+  - sencoords
+leaderboards:
+  permission: ''
+  aliases: []
+heal:
+  permission: uhc.heal
+  aliases:
+  - uhcheal
+border:
+  permission: uhc.border
+  aliases: []
+testformat:
+  permission: uhc.testformat
+  aliases: []
+healall:
+  permission: uhc.healall
+  aliases:
+  - uhchealall
+alerts:
+  permission: ''
+  aliases:
+  - staffalerts
+  - notifications
+  - sa
+freezeall:
+  permission: uhc.freezeall
+  aliases: []
+sit:
+  permission: uhc.sit
+  aliases: []
+lookingforteam:
+  permission: ''
+  aliases:
+  - lft
+health:
+  permission: ''
+  aliases:
+  - h
+  - hp
+partygui:
+  permission: ''
+  aliases:
+  - tgui
+  - teamgui
+respawn:
+  permission: uhc.respawn
+  aliases:
+  - revive
+points:
+  permission: uhc.points.manage
+  aliases:
+  - point
+  - playerpoints
+cosmetics:
+  permission: ''
+  aliases:
+  - trail
+  - trails
+scatter:
+  permission: uhc.scatter
+  aliases:
+  - latescatter
+  - ls
+backpack:
+  permission: ''
+  aliases:
+  - bp
+spectatorchat:
+  permission: uhc.spectatorchat.command
+  aliases:
+  - spc
+  - specchat
+report:
+  permission: ''
+  aliases:
+  - reportplayer
+mlg:
+  permission: ''
+  aliases:
+  - mlgwaterbucket
+announce:
+  permission: uhc.announce
+  aliases:
+  - uhcannounce
+party:
+  permission: ''
+  aliases:
+  - party
+  - faction
+  - f
+  - team
+  - t
+  - p
+practice:
+  permission: ''
+  aliases:
+  - prac
+  - uhcpractice
+thanks:
+  permission: ''
+  aliases:
+  - thank
+spectator:
+  permission: uhc.spectator.staff
+  aliases:
+  - mod
+  - staff
+kills:
+  permission: ''
+  aliases:
+  - k
+  - kc
+  - killscount
+  - killcount
+glasstest:
+  permission: ''
+  aliases:
+  - glasscolortest
+craft:
+  permission: uhc.craft.command
+  aliases:
+  - workbench
+topkills:
+  permission: ''
+  aliases:
+  - tk
+  - kt
+mole:
+  permission: ''
+  aliases:
+  - moles
+teamlist:
+  permission: ''
+  aliases:
+  - tl
+  - partylist
+config:
+  permission: ''
+  aliases:
+  - uhcconfig
+discordannounce:
+  permission: uhc.discord.announce
+  aliases:
+  - da
+rules:
+  permission: ''
+  aliases: []
+assign:
+  permission: uhc.assign
+  aliases:
+  - pforce
+testpotion:
+  permission: ''
+  aliases:
+  - potiontest
+configmanagement:
+  permission: ''
+  aliases:
+  - uhcconfigmangement
+cancelConfigIntegerProcedure:
+  permission: ''
+  aliases: []
+nightvision:
+  permission: uhc.nightvision
+  aliases:
+  - nv
+tweet:
+  permission: uhc.tweet
+  aliases:
+  - uhctweet
+gameid:
+  permission: ''
+  aliases:
+  - gid
+invsee:
+  permission: uhc.invsee
+  aliases: []
+sethost:
+  permission: uhc.sethost
+  aliases: []
+setgametime:
+  permission: uhc.setgametime
+  aliases: []
+goldenhead:
+  permission: uhc.goldenhead
+  aliases: []
+data:
+  permission: uhc.data.edit
+  aliases: []
+vote:
+  permission: ''
+  aliases: []
+helpop:
+  permission: ''
+  aliases:
+  - help
+extrainventory:
+  permission: ''
+  aliases:
+  - extrainv
+rescatter:
+  permission: uhc.scatter
+  aliases: []
+removehost:
+  permission: uhc.removehost
+  aliases: []
+ubl:
+  permission: ''
+  aliases:
+  - ubl
+goldenheadall:
+  permission: uhc.goldenheadall
+  aliases: []
+starterinventory:
+  permission: uhc.starterinventory
+  aliases: []
+despawnlogger:
+  permission: uhc.combatlogger.despawn
+  aliases: []

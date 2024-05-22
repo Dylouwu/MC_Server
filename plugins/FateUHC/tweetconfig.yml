@@ -1,0 +1,63 @@
+TWITTERAPI:
+  #Should TwitterAPI be enabled.
+  ENABLED: false
+  #Should we auto send the AUTOSTART tweet?
+  AUTOSEND: false
+  #At what point of the countdown should it auto-send in seconds?
+  TIME: 60
+  #When this auto-sends should whitelist be disabled?
+  AUTOWHITELIST: false
+
+# Enter your OAuth consumer key. (API KEY)
+oauth-consumer-key: ""
+
+# Enter your OAuth consumer key secret. (API KEY SECRET)
+oauth-consumer-key-secret: ""
+
+# Enter your OAuth access token.
+oauth-access-token: ""
+
+# Enter your OAuth access token secret.
+oauth-access-token-secret: ""
+
+#These tweets can be found in the tweet menu and auto sent.
+AUTOSTART:
+  NAME: '&f&lWhitelist &7- &c&lOFF'
+  MATERIAL: 'PAPER'
+  DURABILITY: 0
+  LINES:
+    - 'Whitelist for FateUHC is now OFF'
+    - ' - Game Type: {gameType}'
+    - ' - BedrockWalls: {borderSize}'
+    - ' - Nether: {nether}'
+    - ' - Scenarios: {scenarios}'
+    - ''
+    - 'Starting in: {autoStart}'
+    - ''
+    - 'Join our server at: server-ip.com'
+
+WINNER:
+  NAME: '&f&lWinner'
+  MATERIAL: 'PAPER'
+  DURABILITY: 0
+  LINES:
+    - 'Congratulations to {winner} for wining PuffGames UHC'
+    - ' - Kills: {winner-kills}'
+    - ''
+    - 'Check out our server at: server-ip.com'
+
+
+#Theses tweets can be found in the tweet menu but not auto sent.
+TWEETS:
+  TWEET-1:
+    NAME: 'Example #1'
+    MATERIAL: 'PAPER'
+    DURABILITY: 0
+    LINES:
+      - 'This is a random tweet which can be sent manually'
+  TWEET-2:
+    NAME: 'Example #2'
+    MATERIAL: 'PAPER'
+    DURABILITY: 0
+    LINES:
+      - 'Check out our server at: server-ip.com'

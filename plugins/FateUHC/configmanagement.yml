@@ -1,0 +1,180 @@
+CONFIG:
+  '1':
+    SCENARIOS: Timber, NoClean, TimeBomb, TripleOres, NoFallDamage, TripleExp, InfiniteEnchant
+    VALUES:
+      Nether: false
+      Final Heal Duration: 5
+      PvP Period Duration: 10
+      Border Size: 25
+      Border Shrink Interval: 5
+      Border Shrink Until: 25
+      First Shrink: 20
+      Enderpearl Damage: false
+      Apple Rate: 10
+      Shears: true
+      Enchanted Golden Apples: false
+      Golden Heads: true
+      Nether Bed Explosion: false
+      Strenght Potions: false
+      Speed Potions: false
+      Invisibility Potions: false
+      Flat 50x50: true
+      Glass Border: true
+      Party Damage: true
+      iPvP: true
+      Ores to Inventory: true
+    NAME: Rush UHC &7(Created By FaceSlap_) - by default
+    GAME-TYPE: FFA
+    SAVED-ON: 27/01/2019 02:40:51
+    SAVED-BY: BGHDDevelopment
+    LOAD-ON-ENABLE: false
+  '3':
+    SCENARIOS: Cut Clean, Time Bomb, Rodless, Golden Retriever, Cats Eyes
+    VALUES:
+      Nether: false
+      Final Heal Duration: 20
+      PvP Period Duration: 40
+      Nether Time: 20
+      Border Size: 750
+      Border Shrink Interval: 5
+      Border Shrink Until: 30
+      First Shrink: 70
+      Enderpearl Damage: false
+      Apple Rate: 5
+      Shears: true
+      Shears Rate: 5
+      Enchanted Golden Apples: false
+      Golden Heads: true
+      Nether Bed Explosion: false
+      Strength Potions: false
+      Speed Potions: true
+      Invisibility Potions: false
+      Last Border Flat: true
+      Exact Flat: false
+      Exact Flat Size: 25
+      Glass Bedrock: true
+      Party Damage: false
+      Death Kick: false
+      Mobs Attack: true
+      To Inventory: false
+      Exp Bottle: true
+      Late Scatter Period: 10
+      Sky High Scenario Time: 40
+      Sky High Scenario Limit: 90
+      Weather & Time: false
+      AntiBurn: false
+      iPvP: true
+      Absorption Less: false
+      UBL: false
+      Sheep Drop String: false
+      100x100 Border Scenarios: false
+      Random Teams: false
+    NAME: UHC STANDARD
+    GAME-TYPE: To9
+    SAVED-ON: 22/08/2021 15:12:19
+    SAVED-BY: Pur1rin
+    LOAD-ON-ENABLE: false
+  '2':
+    SCENARIOS: Cut Clean, Time Bomb, Rodless, Golden Retriever, Book Ception, Bleeding Sweets, Cats Eyes
+    VALUES:
+      Nether: false
+      Final Heal Duration: 20
+      PvP Period Duration: 40
+      Nether Time: 20
+      Border Size: 750
+      Border Shrink Interval: 5
+      Border Shrink Until: 30
+      First Shrink: 70
+      Enderpearl Damage: false
+      Apple Rate: 5
+      Shears: true
+      Shears Rate: 5
+      Enchanted Golden Apples: false
+      Golden Heads: true
+      Nether Bed Explosion: true
+      Strength Potions: false
+      Speed Potions: true
+      Invisibility Potions: false
+      Last Border Flat: true
+      Exact Flat: false
+      Exact Flat Size: 25
+      Glass Bedrock: true
+      Party Damage: false
+      Death Kick: false
+      Mobs Attack: true
+      To Inventory: false
+      Exp Bottle: true
+      Late Scatter Period: 10
+      Sky High Scenario Time: 40
+      Sky High Scenario Limit: 90
+      Weather & Time: false
+      AntiBurn: false
+      iPvP: false
+      Absorption Less: false
+      UBL: false
+      Sheep Drop String: false
+      100x100 Border Scenarios: false
+      Random Teams: false
+    NAME: UHC PERSO
+    GAME-TYPE: To9
+    SAVED-ON: 22/08/2021 15:21:59
+    SAVED-BY: Pur1rin
+    LOAD-ON-ENABLE: false
+  '4':
+    SCENARIOS: Rodless, Golden Retriever, Bleeding Sweets, Cats Eyes
+    VALUES:
+      Nether: false
+      Nether Time: 20
+      Nether Border Size: 250
+      Final Heal Duration: 20
+      PvP Period Duration: 40
+      Relog Time: 30
+      Border Size: 750
+      Border Shrink Interval: 5
+      Border Shrink Until: 30
+      Glass Border: false
+      Bedrock Border: false
+      Minecraft World Border: true
+      Border Damage: false
+      First Shrink: 70
+      Enderpearl Damage: false
+      Apple Rates: 2
+      Shears: true
+      Shears Rate: 5
+      Enchanted Golden Apples: false
+      Golden Heads: true
+      Nether Bed Explosion: true
+      Strength Potions: false
+      Speed Potions: true
+      Invisibility Potions: false
+      Last Border Flat: false
+      Exact Flat: false
+      Exact Flat Size: 25
+      Prevent Party Damage: true
+      Death Kick: false
+      Mobs Attack: true
+      To Inventory: false
+      Exp Bottle: true
+      Late Scatter Period: 10
+      Scatter Delay: 5
+      Last Countdown: 5
+      Random Scatter: false
+      Random Scatter Size: 500
+      Random Scatter Teams: true
+      Sky High Scenario Time: 40
+      Skyhigh Scenario Limit: 90
+      Weather & Time: false
+      AntiBurn: false
+      iPvP: false
+      Absorptionless: false
+      Sheep Drop String: false
+      100x100 Border Scenarios: false
+      Mob Rate Multiplier: 1
+      Meetup Time: 20
+      Random Teams: false
+      Mute Chat Until Grace: false
+    NAME: gitconfig
+    GAME-TYPE: To9
+    SAVED-ON: 22/05/2024 04:16:25
+    SAVED-BY: Pur1rin
+    LOAD-ON-ENABLE: true
