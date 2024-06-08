@@ -5,7 +5,7 @@ connecting-alert: false
 disconnecting-alert: false
 tooltips: true
 players-on-death-screen-included: true
-spectators-included: false
+spectators-included: true
 channel-visibility: true
 session-reported: true
 token: TlVKMU5rZDVQRUYzT0VWNU5rWntPe1Y1UEIvSFNrcWpOL1lgZnZXTUVZW2tXZkxgZ2VbNG9aSWhMbnhabWBwa2haUHlLd3Ja

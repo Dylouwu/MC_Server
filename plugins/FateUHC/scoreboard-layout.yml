@@ -7,8 +7,8 @@ WHILE-LOADING-CHUNKS:
   - '&7&m--------------------------------'
 WHILE-FROZEN:
   - '&7&m--------------------------------'
-  - '&4&lT''es frozen.'
-  - '&aViens sur discord&7:'
+  - '&4&lFrozen, please wait...'
+  - '&f'
   - '&f'
   - '&7&m--------------------------------'
 WHILE-IN-PRACTICE:

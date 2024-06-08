@@ -1,0 +1,176 @@
+[24-06-04 14:57:43] [INFO] [DEBUG] onEnable start -> 1717480663057
+
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of Config at 1717480663091
+[24-06-04 14:57:43] [INFO] [DEBUG] Config has been loaded. (took 7ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of Lang at 1717480663098
+[24-06-04 14:57:43] [INFO] [DEBUG] Lang has been loaded. (took 10ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of UserManagerImpl at 1717480663108
+[24-06-04 14:57:43] [INFO] [DEBUG] UserManagerImpl has been loaded. (took 1ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of GuiListener at 1717480663109
+[24-06-04 14:57:43] [INFO] [DEBUG] GuiListener has been loaded. (took 1ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of KitManagerImpl at 1717480663110
+[24-06-04 14:57:43] [INFO] KitManagerImpl: Loaded 10 kit(s).
+[24-06-04 14:57:43] [INFO] [DEBUG] KitManagerImpl has been loaded. (took 102ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of ArenaManagerImpl at 1717480663212
+[24-06-04 14:57:43] [INFO] ArenaManagerImpl: Loaded 8 arena(s).
+[24-06-04 14:57:43] [INFO] [DEBUG] ArenaManagerImpl has been loaded. (took 17ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of SettingsManager at 1717480663229
+[24-06-04 14:57:43] [INFO] [DEBUG] SettingsManager has been loaded. (took 0ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of PlayerInfoManager at 1717480663229
+[24-06-04 14:57:43] [INFO] [DEBUG] PlayerInfoManager has been loaded. (took 1ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of SpectateManagerImpl at 1717480663230
+[24-06-04 14:57:43] [INFO] [DEBUG] SpectateManagerImpl has been loaded. (took 0ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of BettingManager at 1717480663230
+[24-06-04 14:57:43] [INFO] BettingManager: Vault was not found! Money betting feature will be automatically disabled.
+[24-06-04 14:57:43] [INFO] [DEBUG] BettingManager has been loaded. (took 0ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of InventoryManager at 1717480663230
+[24-06-04 14:57:43] [INFO] [DEBUG] InventoryManager has been loaded. (took 1ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of DuelManager at 1717480663231
+[24-06-04 14:57:43] [INFO] [DEBUG] DuelManager has been loaded. (took 0ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of QueueManager at 1717480663231
+[24-06-04 14:57:43] [INFO] QueueManager: Loaded 9 queue(s).
+[24-06-04 14:57:43] [INFO] [DEBUG] QueueManager has been loaded. (took 3ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of QueueSignManagerImpl at 1717480663234
+[24-06-04 14:57:43] [INFO] QueueSignManagerImpl: Loaded 7 queue sign(s).
+[24-06-04 14:57:43] [INFO] [DEBUG] QueueSignManagerImpl has been loaded. (took 13ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of RequestManager at 1717480663247
+[24-06-04 14:57:43] [INFO] [DEBUG] RequestManager has been loaded. (took 0ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of Teleport at 1717480663247
+[24-06-04 14:57:43] [INFO] [DEBUG] Teleport has been loaded. (took 0ms)
+[24-06-04 14:57:43] [INFO] [DEBUG] Starting load of ExtensionManager at 1717480663247
+[24-06-04 14:57:43] [INFO] [DEBUG] ExtensionManager has been loaded. (took 1ms)
+[24-06-04 14:57:45] [SEVERE] UserManagerImpl: An error occured while loading userdata of Pur1rin!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (InputStreamReader); line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4765)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3642)
+	at me.realized.duels.data.UserManagerImpl.tryLoad(UserManagerImpl.java:259)
+	at me.realized.duels.data.UserManagerImpl.lambda$on$32(UserManagerImpl.java:313)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[24-06-04 14:57:47] [SEVERE] UserManagerImpl: An error occured while loading userdata of Pur1rin!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (InputStreamReader); line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4765)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3642)
+	at me.realized.duels.data.UserManagerImpl.tryLoad(UserManagerImpl.java:259)
+	at me.realized.duels.data.UserManagerImpl.lambda$on$32(UserManagerImpl.java:313)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[24-06-04 14:57:49] [SEVERE] UserManagerImpl: An error occured while loading userdata of Pur1rin!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (InputStreamReader); line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4765)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3642)
+	at me.realized.duels.data.UserManagerImpl.tryLoad(UserManagerImpl.java:259)
+	at me.realized.duels.data.UserManagerImpl.lambda$on$32(UserManagerImpl.java:313)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[24-06-04 15:04:10] [INFO] [DEBUG] onDisable start -> 1717481050122
+
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of ExtensionManager at 1717481050123
+[24-06-04 15:04:10] [INFO] [DEBUG] ExtensionManager has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of Teleport at 1717481050123
+[24-06-04 15:04:10] [INFO] [DEBUG] Teleport has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of RequestManager at 1717481050123
+[24-06-04 15:04:10] [INFO] [DEBUG] RequestManager has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of QueueSignManagerImpl at 1717481050123
+[24-06-04 15:04:10] [INFO] [DEBUG] QueueSignManagerImpl has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of QueueManager at 1717481050123
+[24-06-04 15:04:10] [INFO] [DEBUG] QueueManager has been unloaded. (took 1ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of DuelManager at 1717481050124
+[24-06-04 15:04:10] [INFO] [DEBUG] DuelManager has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of InventoryManager at 1717481050124
+[24-06-04 15:04:10] [INFO] [DEBUG] InventoryManager has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of BettingManager at 1717481050124
+[24-06-04 15:04:10] [INFO] [DEBUG] BettingManager has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of SpectateManagerImpl at 1717481050124
+[24-06-04 15:04:10] [INFO] [DEBUG] SpectateManagerImpl has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of PlayerInfoManager at 1717481050124
+[24-06-04 15:04:10] [INFO] [DEBUG] PlayerInfoManager has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of SettingsManager at 1717481050125
+[24-06-04 15:04:10] [INFO] [DEBUG] SettingsManager has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of ArenaManagerImpl at 1717481050125
+[24-06-04 15:04:10] [INFO] [DEBUG] ArenaManagerImpl has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of KitManagerImpl at 1717481050125
+[24-06-04 15:04:10] [INFO] [DEBUG] KitManagerImpl has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of GuiListener at 1717481050125
+[24-06-04 15:04:10] [INFO] [DEBUG] GuiListener has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of UserManagerImpl at 1717481050125
+[24-06-04 15:04:10] [INFO] [DEBUG] UserManagerImpl has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of Lang at 1717481050125
+[24-06-04 15:04:10] [INFO] [DEBUG] Lang has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Starting unload of Config at 1717481050125
+[24-06-04 15:04:10] [INFO] [DEBUG] Config has been unloaded. (took 0ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] unload done (took 3ms)
+[24-06-04 15:04:10] [INFO] [DEBUG] Log#clearSources done (took 0ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] onEnable start -> 1717493025044
+
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of Config at 1717493025137
+[24-06-04 18:23:45] [INFO] [DEBUG] Config has been loaded. (took 13ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of Lang at 1717493025150
+[24-06-04 18:23:45] [INFO] [DEBUG] Lang has been loaded. (took 20ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of UserManagerImpl at 1717493025170
+[24-06-04 18:23:45] [INFO] [DEBUG] UserManagerImpl has been loaded. (took 1ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of GuiListener at 1717493025171
+[24-06-04 18:23:45] [INFO] [DEBUG] GuiListener has been loaded. (took 0ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of KitManagerImpl at 1717493025171
+[24-06-04 18:23:45] [INFO] KitManagerImpl: Loaded 10 kit(s).
+[24-06-04 18:23:45] [INFO] [DEBUG] KitManagerImpl has been loaded. (took 272ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of ArenaManagerImpl at 1717493025443
+[24-06-04 18:23:45] [INFO] ArenaManagerImpl: Loaded 8 arena(s).
+[24-06-04 18:23:45] [INFO] [DEBUG] ArenaManagerImpl has been loaded. (took 35ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of SettingsManager at 1717493025478
+[24-06-04 18:23:45] [INFO] [DEBUG] SettingsManager has been loaded. (took 0ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of PlayerInfoManager at 1717493025478
+[24-06-04 18:23:45] [INFO] [DEBUG] PlayerInfoManager has been loaded. (took 2ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of SpectateManagerImpl at 1717493025480
+[24-06-04 18:23:45] [INFO] [DEBUG] SpectateManagerImpl has been loaded. (took 0ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of BettingManager at 1717493025480
+[24-06-04 18:23:45] [INFO] BettingManager: Vault was not found! Money betting feature will be automatically disabled.
+[24-06-04 18:23:45] [INFO] [DEBUG] BettingManager has been loaded. (took 1ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of InventoryManager at 1717493025481
+[24-06-04 18:23:45] [INFO] [DEBUG] InventoryManager has been loaded. (took 1ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of DuelManager at 1717493025482
+[24-06-04 18:23:45] [INFO] [DEBUG] DuelManager has been loaded. (took 0ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of QueueManager at 1717493025482
+[24-06-04 18:23:45] [INFO] QueueManager: Loaded 9 queue(s).
+[24-06-04 18:23:45] [INFO] [DEBUG] QueueManager has been loaded. (took 8ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of QueueSignManagerImpl at 1717493025490
+[24-06-04 18:23:45] [INFO] QueueSignManagerImpl: Loaded 7 queue sign(s).
+[24-06-04 18:23:45] [INFO] [DEBUG] QueueSignManagerImpl has been loaded. (took 31ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of RequestManager at 1717493025521
+[24-06-04 18:23:45] [INFO] [DEBUG] RequestManager has been loaded. (took 0ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of Teleport at 1717493025521
+[24-06-04 18:23:45] [INFO] [DEBUG] Teleport has been loaded. (took 0ms)
+[24-06-04 18:23:45] [INFO] [DEBUG] Starting load of ExtensionManager at 1717493025521
+[24-06-04 18:23:45] [INFO] [DEBUG] ExtensionManager has been loaded. (took 1ms)
+[24-06-04 18:23:46] [SEVERE] UserManagerImpl: An error occured while loading userdata of Pur1rin!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (InputStreamReader); line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4765)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3642)
+	at me.realized.duels.data.UserManagerImpl.tryLoad(UserManagerImpl.java:259)
+	at me.realized.duels.data.UserManagerImpl.lambda$on$32(UserManagerImpl.java:313)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)

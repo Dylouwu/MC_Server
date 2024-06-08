@@ -1,31 +1,3 @@
-uhc_practice-177-65--1255:
-  sign:
-    world: uhc_practice
-    x: 177.0
-    y: 65.0
-    z: -1255.0
-  cmds:
-    '1':
-      cmd: 'practice leave '
-      sender: PLAYER
-  delay:
-    time: 0
-    sender: PLAYER
-  price: 0.0
-uhc_practice-177-65--1257:
-  sign:
-    world: uhc_practice
-    x: 177.0
-    y: 65.0
-    z: -1257.0
-  cmds:
-    '1':
-      cmd: 'practice leave '
-      sender: PLAYER
-  delay:
-    time: 0
-    sender: PLAYER
-  price: 0.0
 uhc_lobby--983-92--60:
   sign:
     world: uhc_lobby
@@ -35,34 +7,6 @@ uhc_lobby--983-92--60:
   cmds:
     '1':
       cmd: 'tp -1006 115 -42 '
-      sender: PLAYER
-  delay:
-    time: 0
-    sender: PLAYER
-  price: 0.0
-uhc_lobby--1093-115--38:
-  sign:
-    world: uhc_lobby
-    x: -1093.0
-    y: 115.0
-    z: -38.0
-  cmds:
-    '1':
-      cmd: 'tp -1032 110 -32 '
-      sender: PLAYER
-  delay:
-    time: 0
-    sender: PLAYER
-  price: 0.0
-uhc_lobby--1134-114--74:
-  sign:
-    world: uhc_lobby
-    x: -1134.0
-    y: 114.0
-    z: -74.0
-  cmds:
-    '1':
-      cmd: 'tp -1032 110 -76 '
       sender: PLAYER
   delay:
     time: 0
@@ -474,43 +418,6 @@ uhc_practice--1-4--5:
     time: 0
     sender: PLAYER
   price: 0.0
-uhc_practice-195-64--1263:
-  sign:
-    world: uhc_practice
-    x: 195.0
-    y: 64.0
-    z: -1263.0
-  cmds:
-    '1':
-      cmd: 'give @p minecraft:water_bucket '
-      sender: SERVER
-    '2':
-      cmd: 'give @p minecraft:water_bucket '
-      sender: PLAYER
-    '3':
-      cmd: 'tp 0 75 0 '
-      sender: PLAYER
-  delay:
-    time: 0
-    sender: PLAYER
-  price: 0.0
-uhc_practice-195-64--1262:
-  sign:
-    world: uhc_practice
-    x: 195.0
-    y: 64.0
-    z: -1262.0
-  cmds:
-    '1':
-      cmd: 'give @p minecraft:water_bucket '
-      sender: PLAYER
-    '2':
-      cmd: 'tp 0 255 0 '
-      sender: PLAYER
-  delay:
-    time: 0
-    sender: PLAYER
-  price: 0.0
 uhc_lobby--985-93--44:
   sign:
     world: uhc_lobby
@@ -534,46 +441,6 @@ uhc_lobby--985-93--45:
   cmds:
     '1':
       cmd: 'prac '
-      sender: PLAYER
-  delay:
-    time: 0
-    sender: PLAYER
-  price: 0.0
-uhc_lobby--985-91--44:
-  sign:
-    world: uhc_lobby
-    x: -985.0
-    y: 91.0
-    z: -44.0
-  cmds:
-    '1':
-      cmd: 'duels lobby '
-      sender: PLAYER
-    '2':
-      cmd: 'party create '
-      sender: PLAYER
-    '3':
-      cmd: 'party disband '
-      sender: PLAYER
-  delay:
-    time: 0
-    sender: PLAYER
-  price: 0.0
-uhc_lobby--985-91--45:
-  sign:
-    world: uhc_lobby
-    x: -985.0
-    y: 91.0
-    z: -45.0
-  cmds:
-    '1':
-      cmd: 'duels lobby '
-      sender: PLAYER
-    '2':
-      cmd: 'party create '
-      sender: PLAYER
-    '3':
-      cmd: 'party disband '
       sender: PLAYER
   delay:
     time: 0

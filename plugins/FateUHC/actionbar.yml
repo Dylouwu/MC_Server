@@ -1,6 +1,6 @@
 #ActionBars can only be used on 1.8.
 ACTIONBAR:
-  ENABLED: false
+  ENABLED: true
   FINAL-HEAL: true
   GRACE-PERIOD: true
   BORDER: true

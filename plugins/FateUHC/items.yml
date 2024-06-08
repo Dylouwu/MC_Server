@@ -24,10 +24,10 @@ JOIN-ITEMS-WITHOUT-PARTY:
     COMMAND: '/tp -1034 110 225'
   PARTY-CREATE:
     MATERIAL: 'NETHER_STAR'
-    DISPLAY-NAME: '&7{>} &9&lCreate Party &7{<}'
+    DISPLAY-NAME: '&7{>} &9&lCreate a Team &7{<}'
     LORE:
       - '&eRight-click to create'
-      - '&eyour party if teams'
+      - '&eyour team if teams'
       - '&eare enabled.'
     DURABILITY: 0
     SLOT: 5
@@ -82,10 +82,10 @@ JOIN-ITEMS-WITH-PARTY:
     COMMAND: '/tp -1034 110 225'
   PARTY-CREATE:
     MATERIAL: 'NETHER_STAR'
-    DISPLAY-NAME: '&7{>} &9&lCreate Party &7{<}'
+    DISPLAY-NAME: '&7{>} &9&lCreate a Team &7{<}'
     LORE:
       - '&eRight-click to create'
-      - '&eyour party if teams'
+      - '&eyour team if teams'
       - '&eare enabled.'
     DURABILITY: 0
     SLOT: 5
@@ -116,10 +116,10 @@ JOIN-ITEMS-WITH-PARTY:
     COMMAND: '/worldteleport uhc_lobby'
   PARTY_INFO:
     MATERIAL: 'PAPER'
-    DISPLAY-NAME: '&7{>} &6&lParty Info &7{<}'
+    DISPLAY-NAME: '&7{>} &6&lTeam Info &7{<}'
     LORE:
       - '&eRight-click to see'
-      - '&eyour party information.'
+      - '&eyour team information.'
     DURABILITY: 0
     SLOT: 5
     ACTION: ''
@@ -127,10 +127,10 @@ JOIN-ITEMS-WITH-PARTY:
     COMMAND: '/party list'
   LEAVE-PARTY:
     MATERIAL: 'REDSTONE'
-    DISPLAY-NAME: '&7{>} &c&lLeave Party &7{<}'
+    DISPLAY-NAME: '&7{>} &c&lLeave Team &7{<}'
     LORE:
       - '&eRight-click to leave'
-      - '&eyour party.'
+      - '&eyour team.'
     DURABILITY: 0
     SLOT: 6
     ACTION: ''
@@ -139,10 +139,10 @@ JOIN-ITEMS-WITH-PARTY:
   DISBAND-PARTY:
     LEADER-ONLY: true
     MATERIAL: 'GHAST_TEAR'
-    DISPLAY-NAME: '&7{>} &c&lDisband Party &7{<}'
+    DISPLAY-NAME: '&7{>} &c&lDisband Team &7{<}'
     LORE:
       - '&eRight-click to disband'
-      - '&eyour party.'
+      - '&eyour Team.'
     DURABILITY: 0
     SLOT: 6
     ACTION: ''
