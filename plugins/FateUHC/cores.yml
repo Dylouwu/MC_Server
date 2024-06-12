@@ -1,0 +1,24 @@
+#Below are all the cores that FateUHC supports. You may also always just use PlaceholderAPI.
+#If you enable a hook and the plugin is not on the server an error will occur.
+Vault: false
+LuckPerms: true
+Core: false
+Atom: false
+AquaCore: false
+#The MizuAPI will be automatically installed on first after enabling, if it does not please download from https://bghddevelopment.com/depends
+Mizu: false
+Root: false
+Neutron: false
+mCore: false
+nCore: false
+Chronium: false
+HestiaCore: false
+StarkCore: false
+qUtilities: false
+tModsuite: false
+Galaxy: false
+Zoom: false
+Kriku: false
+lCore: false
+Ocean: false
+Stark_5: false

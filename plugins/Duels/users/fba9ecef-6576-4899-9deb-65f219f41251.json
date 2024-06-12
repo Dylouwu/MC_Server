@@ -1,0 +1,29 @@
+{
+  "uuid": "fba9ecef-6576-4899-9deb-65f219f41251",
+  "name": "jenerae",
+  "wins": 0,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "pauvre": 1386,
+    "COMBO": 1386
+  },
+  "matches": [
+    {
+      "winner": "Pur1rin",
+      "loser": "jenerae",
+      "kit": "pauvre",
+      "time": 1621885376239,
+      "duration": 36360,
+      "health": 7.5
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "jenerae",
+      "kit": "COMBO",
+      "time": 1621885376239,
+      "duration": 182470,
+      "health": 10.0
+    }
+  ]
+}

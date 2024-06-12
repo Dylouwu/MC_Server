@@ -1,0 +1,100 @@
+{
+  "uuid": "97f095e9-0b9d-4435-a65c-2285461bacbe",
+  "name": "Pur1rin",
+  "wins": 58,
+  "losses": 32,
+  "requests": true,
+  "rating": {
+    "uhc": 1431,
+    "sumo": 1518,
+    "POT": 1372,
+    "builduhc": 1416,
+    "pauvre": 1471,
+    "mlg": 1427,
+    "SKYYART": 1416,
+    "COMBO": 1465,
+    "CANCER": 1324
+  },
+  "matches": [
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 5942,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "HadrienAka",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 13054,
+      "health": 10.0
+    },
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 34301,
+      "health": 10.0
+    },
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 11017,
+      "health": 10.0
+    },
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 20891,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "Shrekommunist",
+      "kit": "mlg",
+      "time": 1645572450526,
+      "duration": 20509,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "Shrekommunist",
+      "kit": "mlg",
+      "time": 1645572450526,
+      "duration": 10207,
+      "health": 10.0
+    },
+    {
+      "winner": "Shrekommunist",
+      "loser": "Pur1rin",
+      "kit": "mlg",
+      "time": 1645572450526,
+      "duration": 14200,
+      "health": 10.0
+    },
+    {
+      "winner": "Shrekommunist",
+      "loser": "Pur1rin",
+      "kit": "mlg",
+      "time": 1645572450526,
+      "duration": 27300,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "GambinoJetskii",
+      "kit": "sumo",
+      "time": 1645799411787,
+      "duration": 9116,
+      "health": 10.0
+    }
+  ]
+}

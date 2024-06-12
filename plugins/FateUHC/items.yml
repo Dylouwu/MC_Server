@@ -1,0 +1,339 @@
+JOIN-ITEMS-WITHOUT-TEAM:
+  ARENA:
+    MATERIAL: 'IRON_SWORD'
+    DISPLAY-NAME: '&7{>} &b&lPractice Arena &7{<}'
+    LORE:
+      - '&eRight-click to join'
+      - '&eand practice your skills'
+      - '&ein practice arena.'
+    DURABILITY: 0
+    SLOT: 1
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/practice'
+  CONFIG:
+    MATERIAL: 'FEATHER'
+    DISPLAY-NAME: '&7{>} &d&lJumpLeague Challenge &7{<}'
+    LORE:
+      - '&eRight-click to join the'
+      - '&eJumpLeague Challenge.'
+    DURABILITY: 0
+    SLOT: 3
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/tp -1034 110 225'
+  TEAM-CREATE:
+    MATERIAL: 'NETHER_STAR'
+    DISPLAY-NAME: '&7{>} &9&lCreate a Team &7{<}'
+    LORE:
+      - '&eRight-click to create'
+      - '&eyour team if teams'
+      - '&eare enabled.'
+    DURABILITY: 0
+    SLOT: 5
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/TEAM create'
+  STATS:
+    MATERIAL: 'DIAMOND_SWORD'
+    DISPLAY-NAME: '&7{>} &4&lDuels lobby &7{<}'
+    LORE:
+      - '&eRight-click to enter'
+      - '&ethe Duels lobby.'
+    DURABILITY: 0
+    SLOT: 2
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/duels lobby'
+  LEADERBOARDS:
+    MATERIAL: 'WATCH'
+    DISPLAY-NAME: '&7{>} &a&lReturn to the lobby &7{<}'
+    LORE:
+      - '&eRight-click to return'
+      - '&eto the lobby.'
+    DURABILITY: 0
+    SLOT: 9
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/worldteleport uhc_lobby'
+JOIN-ITEMS-WITH-TEAM:
+  ARENA:
+    MATERIAL: 'IRON_SWORD'
+    DISPLAY-NAME: '&7{>} &b&lPractice Arena &7{<}'
+    LORE:
+      - '&eRight-click to join'
+      - '&eand practice your skills'
+      - '&ein practice arena.'
+    DURABILITY: 0
+    SLOT: 1
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/practice'
+  CONFIG:
+    MATERIAL: 'FEATHER'
+    DISPLAY-NAME: '&7{>} &d&lJumpLeague Challenge &7{<}'
+    LORE:
+      - '&eRight-click to join the'
+      - '&eJumpLeague Challenge.'
+    DURABILITY: 0
+    SLOT: 3
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/tp -1034 110 225'
+  TEAM-CREATE:
+    MATERIAL: 'NETHER_STAR'
+    DISPLAY-NAME: '&7{>} &9&lCreate a Team &7{<}'
+    LORE:
+      - '&eRight-click to create'
+      - '&eyour team if teams'
+      - '&eare enabled.'
+    DURABILITY: 0
+    SLOT: 5
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/TEAM create'
+  STATS:
+    MATERIAL: 'DIAMOND_SWORD'
+    DISPLAY-NAME: '&7{>} &4&lDuels lobby &7{<}'
+    LORE:
+      - '&eRight-click to enter'
+      - '&ethe Duels lobby.'
+    DURABILITY: 0
+    SLOT: 2
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/duels lobby'
+  LEADERBOARDS:
+    MATERIAL: 'WATCH'
+    DISPLAY-NAME: '&7{>} &a&lReturn to the lobby &7{<}'
+    LORE:
+      - '&eRight-click to return'
+      - '&eto the lobby.'
+    DURABILITY: 0
+    SLOT: 9
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/worldteleport uhc_lobby'
+  TEAM_INFO:
+    MATERIAL: 'PAPER'
+    DISPLAY-NAME: '&7{>} &6&lTeam Info &7{<}'
+    LORE:
+      - '&eRight-click to see'
+      - '&eyour team information.'
+    DURABILITY: 0
+    SLOT: 5
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/TEAM list'
+  LEAVE-TEAM:
+    MATERIAL: 'REDSTONE'
+    DISPLAY-NAME: '&7{>} &c&lLeave Team &7{<}'
+    LORE:
+      - '&eRight-click to leave'
+      - '&eyour team.'
+    DURABILITY: 0
+    SLOT: 6
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/TEAM leave'
+  DISBAND-TEAM:
+    LEADER-ONLY: true
+    MATERIAL: 'GHAST_TEAR'
+    DISPLAY-NAME: '&7{>} &c&lDisband Team &7{<}'
+    LORE:
+      - '&eRight-click to disband'
+      - '&eyour Team.'
+    DURABILITY: 0
+    SLOT: 6
+    ACTION: ''
+    COMMAND-ENABLED: true
+    COMMAND: '/TEAM disband'
+SPECTATOR-ITEMS:
+  ALIVE-PLAYERS:
+    MATERIAL: 'SKULL_ITEM'
+    DISPLAY-NAME: '&7{>} &bAlive Players &7{<}'
+    LORE:
+      - '&eRight-click to see'
+      - '&eall players in-game.'
+    DURABILITY: 3
+    SLOT: 1
+    ACTION: 'ALIVE-PLAYERS'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  CONFIGURATION:
+    MATERIAL: 'BOOK'
+    DISPLAY-NAME: '&7{>} &bConfiguration &7{<}'
+    LORE:
+      - '&eRight-click to see current'
+      - '&egame configuration.'
+    DURABILITY: 0
+    SLOT: 2
+    ACTION: 'CONFIGURATION'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  RANDOM_TELEPORT:
+    MATERIAL: 'FEATHER'
+    DISPLAY-NAME: '&7{>} &bRandom Player &7{<}'
+    LORE:
+      - '&eRight-click to teleport'
+      - '&eto random player in-game.'
+    DURABILITY: 0
+    SLOT: 3
+    ACTION: 'RANDOM_PLAYER'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  BETTER-VIEW:
+    MATERIAL: 'CARPET'
+    DISPLAY-NAME: '&7{>} &bBetter View &7{<}'
+    LORE:
+      - '&eHold me to get a'
+      - '&ebetter in-game view.'
+    DURABILITY: 7
+    SLOT: 5
+    ACTION: ''
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  TELEPORT_ZERO:
+    MATERIAL: 'EMERALD'
+    DISPLAY-NAME: '&7{>} &bTeleport &7(&f0,0&7) &7{<}'
+    LORE:
+      - '&eRight-click to teleport'
+      - '&eto the center of uhc world.'
+    DURABILITY: 0
+    SLOT: 7
+    ACTION: 'TELEPORT_ZERO'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  INSPECT:
+    MATERIAL: 'CHEST'
+    DISPLAY-NAME: '&7{>} &bPlayer''s inventory &7{<}'
+    LORE:
+      - '&eRight-click player to'
+      - '&einspect inventory.'
+    DURABILITY: 0
+    SLOT: 8
+    ACTION: 'INSPECT_INVENTORY'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  SETTINGS:
+    MATERIAL: 'WATCH'
+    DISPLAY-NAME: '&7{>} &bSettings &7{<}'
+    LORE:
+      - '&eRight-click to see'
+      - '&eavailable settings.'
+    DURABILITY: 0
+    SLOT: 9
+    ACTION: 'SETTINGS'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+MOD-ITEMS:
+  ALIVE-PLAYERS:
+    MATERIAL: 'SKULL_ITEM'
+    DISPLAY-NAME: '&7{>} &bAlive Players &7{<}'
+    LORE:
+      - '&eRight-click to see'
+      - '&eall players in-game.'
+    DURABILITY: 3
+    SLOT: 1
+    ACTION: 'ALIVE-PLAYERS'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  CONFIGURATION:
+    MATERIAL: 'BOOK'
+    DISPLAY-NAME: '&7{>} &bConfiguration &7{<}'
+    LORE:
+      - '&eRight-click to see current'
+      - '&egame configuration.'
+    DURABILITY: 0
+    SLOT: 2
+    ACTION: 'CONFIGURATION'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  RANDOM_TELEPORT:
+    MATERIAL: 'FEATHER'
+    DISPLAY-NAME: '&7{>} &bRandom Player &7{<}'
+    LORE:
+      - '&eRight-click to teleport'
+      - '&eto random player in-game.'
+    DURABILITY: 0
+    SLOT: 3
+    ACTION: 'RANDOM_PLAYER'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  LOCATIONS:
+    MATERIAL: 'QUARTZ'
+    DISPLAY-NAME: '&7{>} &bUHC Locations &7{<}'
+    LORE:
+      - '&eRight-click to see'
+      - '&eall available uhc locations.'
+    DURABILITY: 0
+    SLOT: 4
+    ACTION: 'LOCATIONS'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  FREEZE:
+    MATERIAL: 'ICE'
+    DISPLAY-NAME: '&7{>} &bFreeze Player &7{<}'
+    LORE:
+      - '&eRight-click players to'
+      - '&efreeze them'
+    DURABILITY: 0
+    SLOT: 6
+    ACTION: 'FREEZE'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  TELEPORT_ZERO:
+    MATERIAL: 'EMERALD'
+    DISPLAY-NAME: '&7{>} &bTeleport &7(&f0,0&7) &7{<}'
+    LORE:
+      - '&eRight-click to teleport'
+      - '&eto the center of uhc world.'
+    DURABILITY: 0
+    SLOT: 7
+    ACTION: 'TELEPORT_ZERO'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  INSPECT:
+    MATERIAL: 'CHEST'
+    DISPLAY-NAME: '&7{>} &bPlayer''s inventory &7{<}'
+    LORE:
+      - '&eRight-click player to'
+      - '&einspect inventory.'
+    DURABILITY: 0
+    SLOT: 8
+    ACTION: 'INSPECT_INVENTORY'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  SETTINGS:
+    MATERIAL: 'WATCH'
+    DISPLAY-NAME: '&7{>} &bSettings &7{<}'
+    LORE:
+      - '&eRight-click to see'
+      - '&eavailable settings.'
+    DURABILITY: 0
+    SLOT: 9
+    ACTION: 'SETTINGS'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  VANISH-ON:
+    MATERIAL: 'INK_SACK'
+    DISPLAY-NAME: '&7{>} &aEnable Vanish &7{<}'
+    LORE:
+      - '&eRight-click to hide'
+      - '&eyourself from players.'
+    DURABILITY: 10
+    SLOT: 5
+    ACTION: 'VANISH-ON'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'
+  VANISH-OFF:
+    MATERIAL: 'INK_SACK'
+    DISPLAY-NAME: '&7{>} &cDisable Vanish &7{<}'
+    LORE:
+      - '&eRight-click to show'
+      - '&eyourself to players.'
+    DURABILITY: 8
+    SLOT: 5
+    ACTION: 'VANISH-OFF'
+    COMMAND-ENABLED: false
+    COMMAND: '/command'

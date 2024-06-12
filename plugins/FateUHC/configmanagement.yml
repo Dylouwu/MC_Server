@@ -1,0 +1,117 @@
+CONFIG:
+  '4':
+    SCENARIOS: Rodless, Golden Retriever, Bleeding Sweets, Cats Eyes
+    VALUES:
+      Nether: false
+      Nether Time: 20
+      Nether Border Size: 250
+      Final Heal Duration: 20
+      PvP Period Duration: 40
+      Relog Time: 30
+      Border Size: 750
+      Border Shrink Interval: 5
+      Border Shrink Until: 30
+      Glass Border: false
+      Bedrock Border: false
+      Minecraft World Border: true
+      Border Damage: false
+      First Shrink: 70
+      Enderpearl Damage: false
+      Apple Rates: 2
+      Shears: true
+      Shears Rate: 5
+      Enchanted Golden Apples: false
+      Golden Heads: true
+      Nether Bed Explosion: true
+      Strength Potions: false
+      Speed Potions: true
+      Invisibility Potions: false
+      Last Border Flat: false
+      Exact Flat: false
+      Exact Flat Size: 25
+      Prevent Party Damage: true
+      Death Kick: false
+      Mobs Attack: true
+      To Inventory: false
+      Exp Bottle: true
+      Late Scatter Period: 10
+      Scatter Delay: 5
+      Last Countdown: 5
+      Random Scatter: false
+      Random Scatter Size: 500
+      Random Scatter Teams: true
+      Sky High Scenario Time: 40
+      Skyhigh Scenario Limit: 90
+      Weather & Time: false
+      AntiBurn: false
+      iPvP: false
+      Absorptionless: false
+      Sheep Drop String: false
+      100x100 Border Scenarios: false
+      Mob Rate Multiplier: 1
+      Meetup Time: 20
+      Random Teams: false
+      Mute Chat Until Grace: false
+    NAME: gitconfig
+    GAME-TYPE: To9
+    SAVED-ON: 22/05/2024 04:16:25
+    SAVED-BY: Pur1rin
+    LOAD-ON-ENABLE: false
+  '3':
+    SCENARIOS: GOLDEN_RETRIEVER, BLEEDINGSWEETS, CATSEYES
+    VALUES:
+      NETHER: false
+      NETHER_TIME: 20
+      NETHER_BORDER: 250
+      FINAL_HEAL: 20
+      PVP_TIME: 20
+      RELOG_TIME: 30
+      BORDER_SIZE: 1000
+      BORDER_SHRINK_INTERVAL: 5
+      BORDER_SHRINK_UNTIL: 25
+      GLASS_BORDER: false
+      BEDROCK_BORDER: false
+      MC_WORLD_BORDER: true
+      BORDER_DAMAGE: false
+      FIRST_SHRINK: 90
+      ENDER_PEARL_DAMAGE: false
+      APPLE_RATE: 2
+      SHEARS: true
+      SHEARS_RATE: 5
+      ENCHANTED_GOLDEN_APPLES: false
+      GOLDEN_HEADS: true
+      NETHER_BED_EXPLOSION: false
+      STRENGTH_POTIONS: false
+      SPEED_POTIONS: false
+      INVIS_POTIONS: false
+      FLAT: false
+      EXACT_FLAT: false
+      EXACT_FLAT_SIZE: 25
+      TEAM_DAMAGE: false
+      DEATH_KICK: false
+      MOBS_ATTACK: true
+      TO_INVENTORY: false
+      EXP_BOTTLE: true
+      LATE_SCATTER_PERIOD: 10
+      SCATTER_DELAY: 5
+      SCATTER_LAST_COUNTDOWN: 5
+      RANDOM_SCATTER: false
+      RANDOM_SCATTER_SIZE: 500
+      RANDOM_SCATTER_TEAMS: true
+      SKY_HIGH_TIME: 40
+      SKY_HIGH_LIMIT: 90
+      WEATHER_AND_TIME: false
+      ANTIBURN: false
+      IPVP: true
+      ABSORPTIONLESS: false
+      SHEEP_STRING: false
+      ONE_HUNDRED_BORDER_SCENARIOS: false
+      MOB_RATE_MULTIPLIER: 1
+      MEETUP_TIME: 20
+      RANDOM_TEAMS: false
+      MUTE_CHAT_UNTIL_GRACE: false
+    NAME: To4 Classic
+    GAME-TYPE: To4
+    SAVED-ON: 12/06/2024 12:04:46
+    SAVED-BY: Pur1rin
+    LOAD-ON-ENABLE: true

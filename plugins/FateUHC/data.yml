@@ -1,0 +1,24 @@
+MONGODB:
+  ENABLED: false
+  # If you wish to use mongo client URI instead, enable this option
+  USE_MONGO_CLIENT_URI:
+    ENABLED: false
+    URI: ""
+  # If your host supports TLS/SSL enable this option
+  SSL-ENABLED: false
+  ADDRESS: "127.0.0.1"
+  PORT: 27017
+  DATABASE: "uhc"
+  AUTHENTICATION:
+    ENABLED: false
+    DATABASE: "admin"
+    USERNAME: ""
+    PASSWORD: ""
+
+MYSQL:
+  ENABLED: true
+  HOSTNAME: "localhost"
+  PORT: 3306
+  DATABASE: "fatedb"
+  USERNAME: "root"
+  PASSWORD: "Rs!#F&Rh%8o2X@"

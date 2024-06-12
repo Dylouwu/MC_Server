@@ -1,0 +1,12 @@
+#You must have BossBarAPI installed to use this! https://bghddevelopment.com/depends
+BOSSBAR:
+  ENABLED: false
+  FINAL-HEAL: true
+  GRACE-PERIOD: true
+  BORDER: true
+  SCATTER: true
+
+FINAL-HEAL: '&aFinal Heal&7: &f{time}'
+GRACE-PERIOD: '&aGrace Period&7: &f{time}'
+BORDER: '&bBorder shrinking in &f{time}'
+SCATTER: '&aScattered&7: &f{scattered} &aRemaining&7: &f{scattering}'

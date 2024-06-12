@@ -1,0 +1,355 @@
+UHC-SETTINGS:
+  PREFIX: '&d[PuffGAMES] '
+  BORDER-PREFIX: '&7[&eBorder&7] '
+  TEAM-PREFIX: '&7[&eTeam&7] '
+  RESTART-COMMAND: stop
+  LOBBY:
+    ENABLED: true
+    USE-PLAYER-BALANCER: false
+    FALL-BACK-SERVER: hub
+  JOIN-ITEMS: true
+  AUTO-WHITELIST: false
+  PRACTICE-RESPAWN-RADIUS: 0
+  REBOOT-TIME: 60
+  AUTO-PRACTICE: true
+WORLDS:
+  LOBBY: uhc_lobby
+  UHC: uhc_world
+  NETHER: uhc_world_nether
+UHC-WORLD-USED: false
+RANDOM-SCATTER:
+  BORDER: 500
+  ENABLED: false
+TELEPORT-TEAMS-TOGETHER-ON-RANDOM-SHRINK: false
+LOCATIONS:
+  LOBBY:
+    WORLD: uhc_lobby
+    COORDS: -976.0;93.79810292918494;-47.0;0.0;0.0
+  PRACTICE:
+    WORLD: uhc_practice
+    COORDS: 173.46170180450295;23.0;-1255.6584384805822;226.0089;-8.127248
+TAB-RELATED-COLORS:
+  FRIENDLY: DARK_GREEN
+  ENEMY: DARK_RED
+  LOBBY: GREEN
+  PRACTICE: RED
+HIDE-LOBBY-PLAYERS:
+  ENABLED: false
+  PERMISSION-TO-SHOW: uhc.lobby.view
+REMOVE-DEFAULT-MC-JOIN-MESSAGE: false
+REMOVE-DEFAULT-MC-LEAVE-MESSAGE: true
+JOIN-MESSAGE:
+- '&7&m-----------------------------'
+- '&eGame Type&7: &f{teams}'
+- '&eBorder&7: &f{border}'
+- '&eScenarios&7: &9{scenarios}'
+- '&7&m-----------------------------'
+FREEZE-MESSAGE:
+- '&7&m-----------------------------'
+- '&eFreeze le temps que tout le monde soit good.'
+- ''
+- ''
+- '&7&m-----------------------------'
+UHC-START-MESSAGE:
+- '&7&m-----------------------------'
+- '&eUHC has begun, good luck to all players.'
+- '&eBorder&7: &f{border}'
+- '&eScenarios&7: &a{scenarios}'
+- '&7&m-----------------------------'
+TEAM-LIST-FORMAT:
+- '&7&m---------------------------------'
+- '&e{owner}''s Team &7[{size}/{max}&7]'
+- '&eState&7: &f{state}'
+- '&eMembers&7: &a{members}&7.'
+- '&7&m---------------------------------'
+SEND-COORDS-FORMAT:
+- '&7&m---------------------------------'
+- '&e{player}''s coordinates'
+- '&7[&e{x}&7,&e{y}&7,&e{z}&7]'
+- '&bYou are {blocks} blocks away.'
+- '&7&m---------------------------------'
+RELOGG-SUCCESS:
+- '&7&m---------------------------------'
+- '&eYou have successfully relogged.'
+- '&eTime left until disqualification&7: &c{timeLeft}'
+- '&7&m---------------------------------'
+CHAT-FORMAT:
+  ENABLED: true
+  NORMAL: '&a{player}&7: &e{message}'
+  TEAM: '&7[&aTeam Chat&7] &2{player}&7: &e{message}'
+  SPECTATOR: '&7[Spectator Chat] &a{player}&7: &e{message}'
+  MOLE: '&7[Mole Chat&7] &a{player}&7: &e{message}'
+  HOST: '&7[&9Host&7] &e{player}&7: &6{message}'
+  MOD: '&7[&bUHC Mod&7] &e{player}&7: &f{message}'
+CHAT-PREFIXES:
+  HOST: '&7[&4Admin&7]&r '
+  MOD: '&7[&cMod&7]&r '
+  TEAM: '&7[{color}#{id}&7]&r '
+USING-BUNGEE-ANNOUNCE-CHANNELS-ADDON: false
+VOTE-SYSTEM:
+  ENABLED: false
+  VOTE-FOR-SCENARIOS: true
+  VOTE-FOR-CONFIGS: false
+  MOST-VOTED-SCENARIOS-FORMAT: '&e<pos>. &6<name>&7: &f<amount>'
+  MOST-VOTED-CONFIGS-FORMAT: '&e<pos>. &6<name>&7: &f<amount>'
+BORDER:
+  START: 2000
+  SHRINK-UNTIL: 25
+  SHRINK-EVERY-MINUTES: 5
+  COLOR-ID: 14
+  SHRINK-STREAM: 5000;4500;4000;3500;3000;2500;2000;1500;1000;500;200;150;100;50;25
+  SHRINK-STARTED:
+  - '&7&m--------------------------------------'
+  - '&a&lBorder shrink has started'
+  - '&eThe world border will shrink every &a{shrinkEvery} &eminutes,'
+  - '&euntil &a{until}x{until} blocks&e.'
+  - '&eNext border will shrink to &a{nextBorder} blocks&e.'
+  - '&7&m--------------------------------------'
+WORLD-GENERATOR: TerrainControl
+STARTER-INVENTORY: t@COOKED_BEEF:a@16;t@BOOK;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;
+POPULATORS:
+  CUSTOM-CAVES: false
+  SUGAR-CANE-RATE: 50.0
+MOB-STACKER:
+  ENABLED: false
+  RADIUS: 5
+  LIMITATION: 50
+  DISABLED-WORLDS:
+  - world_nether
+MOBRATEMULTIPLIER: 1
+SWAP-ALL-BIOMES:
+  ENABLED: false
+  SWAP-WITH: DESERT
+SWAP-BIOMES:
+- DEEP_OCEAN;PLAINS
+- OCEAN;PLAINS
+- JUNGLE;FOREST
+- ICE_PLAINS;FOREST
+- JUNGLE_EDGE;FOREST
+- JUNGLE_HILLS;FOREST
+- COLD_TAIGA;PLAINS
+- ICE_MOUNTAINS;FOREST
+- FROZEN_RIVER;FOREST
+- EXTREME_HILLS;FOREST
+- EXTREME_HILLS_PLUS;FOREST
+- FROZEN_OCEAN;PLAINS
+- ICE_PLAINS;PLAINS
+- ICE_MOUNTAINS;PLAINS
+- TAIGA_HILLS;PLAINS
+- SMALL_MOUNTAINS;PLAINS
+- DESERT;PLAINS
+SCENARIOS:
+  SHEEPS-DROP-COOKED-BEEF-ON-1_7: true
+  FLOWER-POWER-NON-DROPPED-MATERIALS:
+  - BEDROCK
+  - COMMAND_BLOCK
+  FLOWER-POWER-MATERIALS-TO-CHECK:
+  - RED_ROSE
+  - YELLOW_FLOWER
+UHC-WIN-MESSAGE:
+  SOLO:
+  - '&7&m-----------------------------------'
+  - '&eCongrats to &b{winner} &efor winning this uhc'
+  - '&eTotal kills&7: &b{kills}'
+  - '&7&m-----------------------------------'
+  TEAM:
+  - '&7&m-----------------------------------'
+  - '&eCongrats to &b{winners} &efor winning this uhc'
+  - '&eTotal kills&7: &b{kills}'
+  - '&7&m-----------------------------------'
+WORLD-BORDER-FILLING-MESSAGE:
+- '&eUHC world is currently loading. &7(&6{chunks} chunks &ecompleted&7, &6~ {percentage}
+  %&7)&e.'
+RULES:
+  ENABLED: false
+  SEND-EVERY-SECONDS: 2
+  SOUND: CLICK
+  FORMAT: '&7[&eRule &9#{count}&7] &7{rule}'
+  RULES:
+  - No hacked clients of any kind - this includes x-ray machines!
+  - Spamming chunk reloads is considered exploiting and is treated as x-ray.
+  - Using f3 to check entities is not allowed and is treated the same as cave finder.
+  - If you see a hacker or someone who you believe is cheating, please use /helpop.
+  - You may mine to sounds and players.
+  - Spoiling what others have, when you're dead, will result in a 1 day ban. Dead shouldn't interfere.
+  - No sky bases within 100x100. That means they can not be within the final shrink.
+  - The grace period is 20 minutes long. During the time, ipvp is NOT allowed.
+  - Anyone caught ipvping during the grace period will be banned for 3 day.
+  - If you stalk youtubers/streamers/famous during this time, we may TP you away.
+  - The world border will tp you, not kill you.
+  - Type /config to see what is enabled and what is not.
+  - You may relog during the game but you only have 10 minutes to get back in.
+POINTS-SYSTEM:
+  PER-KILL: 5
+  PER-WIN: 20
+PRE-WHITELISTED-PLAYERS:
+- Pur1rin
+AUTO-START:
+  ENABLED: false
+  REQUIRED-PLAYERS: 100
+  TIMER-IN-MINUTES: 1
+  AUTO-WHITELIST: false
+  AUTO-WHITELIST-TIME-IN-SECONDS: 300
+ANNOUNCE-MESSAGE:
+  WITHOUT-AUTO-START-ACTIVE: '&7[&a{serverName}&7] {displayName}&7: &a{gameType} &egame
+    is starting soon. &7[&a{scenarios}.&7]'
+  WITH-AUTO-START:
+    MINUTES: '&7[&a{serverName}&7] {displayName}&7: &a{gameType} &egame is starting
+      in &a{minutes} minutes. &7[&a{scenarios}.&7]'
+    SECONDS: '&7[&a{serverName}&7] {displayName}&7: &a{gameType} &egame is starting
+      in &a{seconds} seconds. &7[&a{scenarios}.&7]'
+DATA-SYNC:
+  NAME: uhc01
+MOTD:
+  ENABLED: true
+  LOBBY: '&ePuffGAMES (UHC, parkour,...){newLine}&dHosted by Pur1rin'
+  GAME: '&ePuffGAMES (UHC, parkour,...){newLine}&dHosted by Pur1rin'
+BUNGEE-AUTO-ANNOUNCE:
+  ENABLED: false
+  MINUTES: 30;20;10;5;4;3;2;1
+NICE-LOCATION-FORMAT: '&7[&2{x}&7,&2{y}&7,&2{z}&7] &7(&a{world}&7)'
+SOUNDS:
+  FIRST-SHRINK: NOTE_PIANO
+  FIRST-SHRINK-ENABLED: true
+  START: ENDERDRAGON_GROWL
+  START-ENABLED: true
+  BORDER-SHRINK: LEVEL_UP
+  BORDER-SHRINK-ENABLED: true
+  WIN: ENDERDRAGON_GROWL
+  WIN-ENABLED: true
+  RULES-ENABLED: true
+ORE-EXPERIENCE:
+  DIAMOND: 5
+  GOLD: 4
+  IRON: 3
+  LAPIS: 3
+  EMERALD: 3
+  REDSTONE: 3
+  COAL: 2
+XPSOUNDS: false
+UHC-BORDER-INFO-FORMAT:
+  SECONDS: '&7[&c<time>s&7]'
+  MINUTES: '&7[&c<time>m&7]'
+  LAST: '&7[&cLast&7]'
+USE-CONFIG-INFO-IN-CHAT: false
+CONFIGS-TO-SHOW-IN-CHAT:
+- Nether
+- Final Heal Duration
+- PvP Period Duration
+- Border Size
+- Border Shrink Interval
+- Border Shrink Until
+- First Shrink
+- Enderpearl Damage
+- Apple Rate
+- Shears
+- Shears Rate
+- Enchanted Golden Apples
+- Golden Heads
+- Nether Bed Explosion
+- Last Border Flat
+- Glass Bedrock
+- Team Damage
+- To Inventory
+- Exp Bottle
+- Late Scatter Period
+USE-SCENARIOS-INFO-IN-CHAT: false
+CONFIGS-IN-CHAT-FORMAT:
+- '&8&m------------------------------------------'
+- '&f&l<type> &7- &a<scenarios>'
+- '{configs}'
+- ' &fPotions&7: &a<potions>'
+- '&8&m------------------------------------------'
+USE-BUNGEE-ANNOUNCE-COMMAND:
+  ENABLED: false
+  COMMAND: broadcast <message>
+HELPOP:
+  COOLDOWN: 60
+THANK:
+  COOLDOWN: 30
+REPORT:
+  COOLDOWN: 60
+PRACTICEBROADCAST:
+  ENABLEDMESSAGE: false
+  DISABLEDMESSAGE: false
+BLOCKMESSAGE:
+  ENABLED: false
+NAMETAGCOLOR:
+  ENABLED: true
+KICKMESSAGES:
+  NORMAL: UHC has finished! The server is restarting!
+  ERROR: There was a problem loading your profile. Try again!
+  ERRORDEATH: You died while not in a game. Please join again.
+  DEATHKICK: '[&eDeathKick&7] &cThanks for playing this uhc!'
+DEATHMESSAGE:
+  ENABLED: true
+  KILLER: red
+  KILLED: aqua
+TIME:
+  YEARS:
+    NOTPLURAL: ' year '
+    PLURAL: ' years '
+  DAYS:
+    NOTPLURAL: ' day '
+    PLURAL: ' days '
+  HOURS:
+    NOTPLURAL: ' hour '
+    PLURAL: ' hours '
+  MINUTES:
+    NOTPLURAL: ' minute '
+    PLURAL: ' minutes '
+  SECONDS:
+    NOTPLURAL: ' second '
+    PLURAL: ' seconds '
+LIMITFLOWERPOWERPOTIONS:
+  ENABLED: false
+LIMITFLOWERPOWERORESANDBLOCKS:
+  ENABLED: false
+LIMITFLOWERPOWERAPPLES:
+  ENABLED: false
+BUILDUHCKIT:
+  ARMOR: t@313;t@312;t@311;t@310;
+  INVENTORY: "t@276:e@16@1;t@346;t@327;t@4:a@64;t@326;t@322:dn@\xa76Golden Head;t@322:a@16;t@278;t@261;t@326;t@326;t@326;t@326;t@326;t@326;t@326;t@326;t@262:a@64;t@326;t@326;t@326;t@326;t@326;t@326;t@326;t@326;t@326;t@326;t@326;t@327;t@326;t@4:a@64;t@364:a@16;t@326;t@326;t@326;"
+TIMEBOMBHOLOS:
+  DEFAULT: '&a{player}''s &fCorpse &7[&a31s&7]'
+  NORMAL: '&a{player}''s &fCorpse &7[&a{time}s&7]'
+  15SEC: '&a{player}''s &fCorpse &7[&e{time}s&7]'
+  3SEC: '&a{player}''s &fCorpse &7[&6{time}s&7]'
+  2SEC: '&a{player}''s &fCorpse &7[&c{time}s&7]'
+  1SEC: '&a{player}''s &fCorpse &7[&4{time}s&7]'
+SAFELOOTHOLOS:
+  DEFAULT: '&eLocked for: &6{player}'
+USEBUKKITSHUTDOWN:
+  ENABLED: false
+USEWORLDBACKUPSYSTEM: false
+SPAWN-HEAD-ON-DEATH: true
+LAST-COUNTDOWN: 10
+MUTE-CHAT-TELL-GRACE: false
+SUPERHEROS-USE-CUSTOM-EFFECTS: false
+SUPERHEROS-EFFECTS:
+- INCREASE_DAMAGE
+- DAMAGE_RESISTANCE
+- SPEED
+- JUMP
+- INVISIBILITY
+- FIRE_RESISTANCE
+Fallback:
+  Enabled: false
+  Server: Hub
+ONE-HUNDRED-BORDER-SCENARIOS:
+- NO_FALL_DAMAGE
+- TRIPLE_EXP
+BLOCKED_INTERACTION_BLOCKS:
+- IRON_DOOR
+- LEVER
+COMBATLOGTIME: 1200
+MOBS-WHILE-PREGEN: true
+COMMANDS:
+  ON-KILL:
+  - ''
+  - ''
+  - ''
+  ON-WIN:
+  - ''
+  - ''
+  - ''

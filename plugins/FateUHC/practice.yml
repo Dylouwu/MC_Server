@@ -1,0 +1,9 @@
+BlockRemoval: true
+BlockRemovalTime: 70
+BypassRestrictions: false
+PRACTICE-ARENA:
+  MAX-PLAYERS: 50
+  TAKE-FALL-DAMAGE: true
+  KIT:
+    ARMOR: t@313;t@308;t@311;t@310;
+    INVENTORY: t@276;t@261;t@346:e@34@3;t@364:a@64;null;t@327;t@326;t@4:a@64;t@1:a@64;null;null;null;null;null;null;null;null;t@262:a@10;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;

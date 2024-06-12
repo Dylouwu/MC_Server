@@ -1,0 +1,745 @@
+uhc_lobby--983-92--60:
+  sign:
+    world: uhc_lobby
+    x: -983.0
+    y: 92.0
+    z: -60.0
+  cmds:
+    '1':
+      cmd: 'tp -1006 115 -42 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1100-113-212:
+  sign:
+    world: uhc_lobby
+    x: -1100.0
+    y: 113.0
+    z: 212.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 195 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1084-125-198:
+  sign:
+    world: uhc_lobby
+    x: -1084.0
+    y: 125.0
+    z: 198.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 170 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1069-120-173:
+  sign:
+    world: uhc_lobby
+    x: -1069.0
+    y: 120.0
+    z: 173.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 142 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1105-110-152:
+  sign:
+    world: uhc_lobby
+    x: -1105.0
+    y: 110.0
+    z: 152.0
+  cmds:
+    '1':
+      cmd: 'tp -1011 105 128 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1103-110--188:
+  sign:
+    world: uhc_lobby
+    x: -1103.0
+    y: 110.0
+    z: -188.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -197 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1080-112-128:
+  sign:
+    world: uhc_lobby
+    x: -1080.0
+    y: 112.0
+    z: 128.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 103 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1100-109--178:
+  sign:
+    world: uhc_lobby
+    x: -1100.0
+    y: 109.0
+    z: -178.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -187 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1108-110--169:
+  sign:
+    world: uhc_lobby
+    x: -1108.0
+    y: 110.0
+    z: -169.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -177 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1102-125-106:
+  sign:
+    world: uhc_lobby
+    x: -1102.0
+    y: 125.0
+    z: 106.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 90 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1104-106--156:
+  sign:
+    world: uhc_lobby
+    x: -1104.0
+    y: 106.0
+    z: -156.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -167 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1083-111-91:
+  sign:
+    world: uhc_lobby
+    x: -1083.0
+    y: 111.0
+    z: 91.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 75 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1102-112-78:
+  sign:
+    world: uhc_lobby
+    x: -1102.0
+    y: 112.0
+    z: 78.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 57 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1110-113-51:
+  sign:
+    world: uhc_lobby
+    x: -1110.0
+    y: 113.0
+    z: 51.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 37 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1103-111--198:
+  sign:
+    world: uhc_lobby
+    x: -1103.0
+    y: 111.0
+    z: -198.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -208 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1083-114-36:
+  sign:
+    world: uhc_lobby
+    x: -1083.0
+    y: 114.0
+    z: 36.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 19 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1141-106-13:
+  sign:
+    world: uhc_lobby
+    x: -1141.0
+    y: 106.0
+    z: 13.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -8 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1100-110--144:
+  sign:
+    world: uhc_lobby
+    x: -1100.0
+    y: 110.0
+    z: -144.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -156 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1128-116--15:
+  sign:
+    world: uhc_lobby
+    x: -1128.0
+    y: 116.0
+    z: -15.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -48 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1119-113--50:
+  sign:
+    world: uhc_lobby
+    x: -1119.0
+    y: 113.0
+    z: -50.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -76 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1086-110--124:
+  sign:
+    world: uhc_lobby
+    x: -1086.0
+    y: 110.0
+    z: -124.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -132 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1090-110--133:
+  sign:
+    world: uhc_lobby
+    x: -1090.0
+    y: 110.0
+    z: -133.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -142 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1133-116--74:
+  sign:
+    world: uhc_lobby
+    x: -1133.0
+    y: 116.0
+    z: -74.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -91 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1085-110--112:
+  sign:
+    world: uhc_lobby
+    x: -1085.0
+    y: 110.0
+    z: -112.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -122 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1090-111--92:
+  sign:
+    world: uhc_lobby
+    x: -1090.0
+    y: 111.0
+    z: -92.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 -112 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--977-92--60:
+  sign:
+    world: uhc_lobby
+    x: -977.0
+    y: 92.0
+    z: -60.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 225 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1012-115--46:
+  sign:
+    world: uhc_lobby
+    x: -1012.0
+    y: 115.0
+    z: -46.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 225 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1074-127-223:
+  sign:
+    world: uhc_lobby
+    x: -1074.0
+    y: 127.0
+    z: 223.0
+  cmds:
+    '1':
+      cmd: 'tp -1034 110 212 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--880-4--179:
+  sign:
+    world: uhc_lobby
+    x: -880.0
+    y: 4.0
+    z: -179.0
+  cmds:
+    '1':
+      cmd: 'tp -878 134 -174 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice--1-4--5:
+  sign:
+    world: uhc_practice
+    x: -1.0
+    y: 4.0
+    z: -5.0
+  cmds:
+    '1':
+      cmd: 'tp 195 62 -1262 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--985-93--44:
+  sign:
+    world: uhc_lobby
+    x: -985.0
+    y: 93.0
+    z: -44.0
+  cmds:
+    '1':
+      cmd: 'prac '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--985-93--45:
+  sign:
+    world: uhc_lobby
+    x: -985.0
+    y: 93.0
+    z: -45.0
+  cmds:
+    '1':
+      cmd: 'prac '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--985-92--44:
+  sign:
+    world: uhc_lobby
+    x: -985.0
+    y: 92.0
+    z: -44.0
+  cmds:
+    '1':
+      cmd: 'duels lobby '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--985-92--45:
+  sign:
+    world: uhc_lobby
+    x: -985.0
+    y: 92.0
+    z: -45.0
+  cmds:
+    '1':
+      cmd: 'duels lobby '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-64--1260:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 64.0
+    z: -1260.0
+  cmds:
+    '1':
+      cmd: 'worldteleport uhc_lobby '
+      sender: PLAYER
+    '2':
+      cmd: 'prac leave '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-64--1259:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 64.0
+    z: -1259.0
+  cmds:
+    '1':
+      cmd: 'worldteleport uhc_lobby '
+      sender: PLAYER
+    '2':
+      cmd: 'prac leave '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-62--1259:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 62.0
+    z: -1259.0
+  cmds:
+    '1':
+      cmd: 'worldteleport uhc_lobby '
+      sender: PLAYER
+    '2':
+      cmd: 'prac leave '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-62--1260:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 62.0
+    z: -1260.0
+  cmds:
+    '1':
+      cmd: 'worldteleport uhc_lobby '
+      sender: PLAYER
+    '2':
+      cmd: 'prac leave '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-63--1263:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 63.0
+    z: -1263.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'prac join '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-63--1262:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 63.0
+    z: -1262.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'prac join '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-63--1261:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 63.0
+    z: -1261.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'prac join '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-63--1260:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 63.0
+    z: -1260.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'prac join '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-63--1259:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 63.0
+    z: -1259.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'prac join '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-63--1258:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 63.0
+    z: -1258.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'prac join '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-195-63--1257:
+  sign:
+    world: uhc_practice
+    x: 195.0
+    y: 63.0
+    z: -1257.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'prac join '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_lobby--1102-111--209:
+  sign:
+    world: uhc_lobby
+    x: -1102.0
+    y: 111.0
+    z: -209.0
+  cmds:
+    '1':
+      cmd: 'tp -975 94 -46 '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-171-26--1305:
+  sign:
+    world: uhc_practice
+    x: 171.0
+    y: 26.0
+    z: -1305.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'queue leave '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-220-26--1256:
+  sign:
+    world: uhc_practice
+    x: 220.0
+    y: 26.0
+    z: -1256.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'queue leave '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-171-26--1207:
+  sign:
+    world: uhc_practice
+    x: 171.0
+    y: 26.0
+    z: -1207.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'queue leave '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0
+uhc_practice-122-26--1256:
+  sign:
+    world: uhc_practice
+    x: 122.0
+    y: 26.0
+    z: -1256.0
+  cmds:
+    '1':
+      cmd: 'prac leave '
+      sender: PLAYER
+    '2':
+      cmd: 'queue leave '
+      sender: PLAYER
+  delay:
+    time: 0
+    sender: PLAYER
+  price: 0.0

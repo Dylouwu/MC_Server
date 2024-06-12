@@ -1,0 +1,22 @@
+#This is where you can customize the help page for the /party | /team command
+PARTYCOMMANDHELP:
+  - '&7&m-----------&7[ &a&lPARTY HELP &7]&7&m-----------'
+  - '&e/party create &7- &fto create a party.'
+  - '&e/party disband &7- &fto disband your party.'
+  - '&e/party solo &7- &fto be alone in your party.'
+  - '&e/party chat &7- &fto toggle party chat.'
+  - '&e/party invite <player> &7- &fto invite players to your party.'
+  - '&e/party accept &7- &fto accept a party invitation.'
+  - '&e/party deny &7- &fto deny a party invitation.'
+  - '&e/party leave &7- &fto leave your current party.'
+  - '&e/party kick <player> &7- &fto kick a player from your party.'
+  - '&e/party list <player> &7- &fto list someone''s party.'
+  - '&e/party gui &7- &fopens party GUI.'
+  - '&7&m-----------&7[ &a&lPARTY HELP &7]&7&m-----------'
+
+PARTYCOMMANDADMINHELP:
+  - '&7&m-----------&7[ &a&lADMIN HELP &7]&7&m-----------'
+  - '&e/party enable &7- &fto enable parties.'
+  - '&e/party disable &7- &fto disable parties.'
+  - '&e/party size <amount> &7- &fto set parties size.'
+  - '&7&m-----------&7[ &a&lADMIN HELP &7]&7&m-----------'

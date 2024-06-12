@@ -1,0 +1,86 @@
+[
+  {
+    "location": {
+      "world": "uhc_practice",
+      "x": 195.0,
+      "y": 63.0,
+      "z": -1260.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "kit": "pauvre",
+    "bet": 0
+  },
+  {
+    "location": {
+      "world": "uhc_practice",
+      "x": 195.0,
+      "y": 63.0,
+      "z": -1263.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "kit": "mlg",
+    "bet": 0
+  },
+  {
+    "location": {
+      "world": "uhc_practice",
+      "x": 195.0,
+      "y": 63.0,
+      "z": -1257.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "kit": "sumo",
+    "bet": 0
+  },
+  {
+    "location": {
+      "world": "uhc_practice",
+      "x": 195.0,
+      "y": 63.0,
+      "z": -1259.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "kit": "CANCER",
+    "bet": 0
+  },
+  {
+    "location": {
+      "world": "uhc_practice",
+      "x": 195.0,
+      "y": 63.0,
+      "z": -1262.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "kit": "uhc",
+    "bet": 0
+  },
+  {
+    "location": {
+      "world": "uhc_practice",
+      "x": 195.0,
+      "y": 63.0,
+      "z": -1261.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "kit": "POT",
+    "bet": 0
+  },
+  {
+    "location": {
+      "world": "uhc_practice",
+      "x": 195.0,
+      "y": 63.0,
+      "z": -1258.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "kit": "COMBO",
+    "bet": 0
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "uuid": "554c22ba-e518-4206-8e1a-8d99d067d720",
+  "name": "BriocheSucree",
+  "wins": 1,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "builduhc": 1384,
+    "mlg": 1370,
+    "COMBO": 1384,
+    "CANCER": 1416
+  },
+  "matches": [
+    {
+      "winner": "BriocheSucree",
+      "loser": "GambinoJetskii",
+      "kit": "CANCER",
+      "time": 1621356687821,
+      "duration": 14011,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "BriocheSucree",
+      "kit": "COMBO",
+      "time": 1621356687821,
+      "duration": 124891,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "BriocheSucree",
+      "kit": "mlg",
+      "time": 1622229557380,
+      "duration": 13470,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "BriocheSucree",
+      "kit": "mlg",
+      "time": 1622229557380,
+      "duration": 9460,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "BriocheSucree",
+      "kit": "builduhc",
+      "time": 1622229557380,
+      "duration": 24051,
+      "health": 10.0
+    }
+  ]
+}

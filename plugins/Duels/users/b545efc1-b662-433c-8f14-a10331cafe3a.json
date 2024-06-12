@@ -1,0 +1,58 @@
+{
+  "uuid": "b545efc1-b662-433c-8f14-a10331cafe3a",
+  "name": "Evo_Termi",
+  "wins": 7,
+  "losses": 5,
+  "requests": true,
+  "rating": {
+    "uhc": 1384,
+    "sumo": 1420,
+    "POT": 1397,
+    "pauvre": 1387,
+    "mlg": 1419,
+    "COMBO": 1417,
+    "CANCER": 1415
+  },
+  "matches": [
+    {
+      "winner": "Evo_Termi",
+      "loser": "Pur1rin",
+      "kit": "mlg",
+      "time": 1622567733332,
+      "duration": 20369,
+      "health": 10.0
+    },
+    {
+      "winner": "Evo_Termi",
+      "loser": "Pur1rin",
+      "kit": "mlg",
+      "time": 1622567733332,
+      "duration": 31741,
+      "health": 10.0
+    },
+    {
+      "winner": "Evo_Termi",
+      "loser": "Pur1rin",
+      "kit": "POT",
+      "time": 1622567733332,
+      "duration": 40426,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "Evo_Termi",
+      "kit": "mlg",
+      "time": 1622567733332,
+      "duration": 10415,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "Evo_Termi",
+      "kit": "POT",
+      "time": 1622567733332,
+      "duration": 51442,
+      "health": 10.0
+    }
+  ]
+}

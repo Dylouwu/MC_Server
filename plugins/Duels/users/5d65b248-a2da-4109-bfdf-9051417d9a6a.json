@@ -1,0 +1,97 @@
+{
+  "uuid": "5d65b248-a2da-4109-bfdf-9051417d9a6a",
+  "name": "HadrienAka",
+  "wins": 8,
+  "losses": 12,
+  "requests": true,
+  "rating": {
+    "uhc": 1385,
+    "sumo": 1393,
+    "pauvre": 1375,
+    "mlg": 1370,
+    "COMBO": 1387,
+    "CANCER": 1437
+  },
+  "matches": [
+    {
+      "winner": "Pur1rin",
+      "loser": "HadrienAka",
+      "kit": "uhc",
+      "time": 1633023740566,
+      "duration": 38097,
+      "health": 7.0
+    },
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "sumo",
+      "time": 1633023740566,
+      "duration": 33988,
+      "health": 10.0
+    },
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 30924,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "HadrienAka",
+      "kit": "pauvre",
+      "time": 1633023740566,
+      "duration": 11865,
+      "health": 2.5
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "HadrienAka",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 9538,
+      "health": 10.0
+    },
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 5942,
+      "health": 10.0
+    },
+    {
+      "winner": "Pur1rin",
+      "loser": "HadrienAka",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 13054,
+      "health": 10.0
+    },
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 34301,
+      "health": 10.0
+    },
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 11017,
+      "health": 10.0
+    },
+    {
+      "winner": "HadrienAka",
+      "loser": "Pur1rin",
+      "kit": "CANCER",
+      "time": 1633023740566,
+      "duration": 20891,
+      "health": 10.0
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+language: en
+update-message: true
+console-log: false
+prefix: '§6[CmdSigns]'
+debuging: false

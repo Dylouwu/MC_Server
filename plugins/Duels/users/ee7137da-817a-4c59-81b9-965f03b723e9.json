@@ -1,0 +1,20 @@
+{
+  "uuid": "ee7137da-817a-4c59-81b9-965f03b723e9",
+  "name": "Pikimo",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "COMBO": 1386
+  },
+  "matches": [
+    {
+      "winner": "Pur1rin",
+      "loser": "Pikimo",
+      "kit": "COMBO",
+      "time": 1624113785644,
+      "duration": 12555,
+      "health": 10.0
+    }
+  ]
+}
