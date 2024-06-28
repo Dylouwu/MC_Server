@@ -1,5 +1,5 @@
 language: en
-update-message: true
+update-message: false
 console-log: false
 prefix: '§6[CmdSigns]'
 debuging: false

@@ -520,6 +520,7 @@ AUTOSTART:
   WRONG-FORMAT: '&eYou have entered wrong format.'
   USAGE: '&cExample: /autostart 1h1m1s'
   STARTING: '&aUHC is going to start in {time}.'
+  MIN-TIME: '&cThe autostart time must be at least 2 minutes (120 seconds)'
 KILLS:
   NONE: '&eYou don''t have any kills.'
   OFFLINE: '&cPlayer is currently offline.'
