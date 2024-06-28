@@ -14,15 +14,6 @@ config-version: 8
 settings:
   debug: false
   save-user-cache-on-stop-only: false
-  moved-too-quickly-threshold: 100.0
-  moved-wrongly-threshold: 0.0625
-  filter-creative-items: true
-  late-bind: false
-  bungeecord: false
-  sample-count: 12
-  user-cache-size: 1000
-  int-cache-limit: 1024
-  player-shuffle: 0
   netty-threads: 4
   timeout-time: 60
   restart-on-crash: true
@@ -34,8 +25,28 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  filter-creative-items: true
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-threshold: 100.0
+  user-cache-size: 1000
+  player-shuffle: 0
+  int-cache-limit: 1024
+  late-bind: false
+  sample-count: 12
+  bungeecord: false
   moved-too-quickly-multiplier: 10.0
   item-dirty-ticks: 20
+commands:
+  tab-complete: 0
+  silent-commandblock-console: false
+  spam-exclusions:
+  - /skill
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: This command does not exist!
@@ -43,17 +54,6 @@ messages:
   outdated-client: Outdated client! Please use 1.8.9
   outdated-server: Outdated server! I'm still on 1.8.9
   restart: Server is restarting
-commands:
-  tab-complete: 0
-  silent-commandblock-console: false
-  log: true
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  spam-exclusions:
-  - /skill
 stats:
   disable-saving: false
   forced-stats: {}
@@ -65,11 +65,15 @@ world-settings:
       item: 2.5
       exp: 3.0
     arrow-despawn-rate: 500
-    zombie-aggressive-towards-villager: true
-    hanging-tick-frequency: 100
-    wither-spawn-sound-radius: 0
+    chunks-per-tick: 650
+    clear-tick-list: false
     enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
     view-distance: 16
+    zombie-aggressive-towards-villager: true
+    mob-spawn-range: 4
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -90,7 +94,17 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    mob-spawn-range: 4
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      tick-inactive-villagers: true
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -102,25 +116,16 @@ world-settings:
       netherwart-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
-    nerf-spawner-mobs: false
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      tick-inactive-villagers: true
     save-structure-info: true
+    max-bulk-chunks: 10
     random-light-updates: false
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
     max-entity-collisions: 8
+    seed-village: 10387312
+    seed-feature: 14357617
     hunger:
       walk-exhaustion: 0.2
       sprint-exhaustion: 0.8
@@ -131,15 +136,10 @@ world-settings:
       swim-multiplier: 0.005
       sprint-multiplier: 0.05
       other-multiplier: 0.0
+    max-tnt-per-tick: 100
     max-tick-time:
       tile: 50
       entity: 50
-    max-bulk-chunks: 10
-    max-tnt-per-tick: 100
-    seed-village: 10387312
-    seed-feature: 14357617
-    chunks-per-tick: 650
-    clear-tick-list: false
     dragon-death-sound-radius: 0
     squid-spawn-range:
       min: 45.0
