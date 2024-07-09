@@ -630,3 +630,9 @@ BUILD:
   NOT-LOBBY: '&cYou can''t enable build outside of lobby.'
   ENABLED: '&aBuild has been enabled.'
   DISABLED: '&cBuild has been disabled.'
+COLOUR-NOTE: '#Use the below to set a primary colour, secondary colour and accent
+  colour in messages. Use <pc> for primary, <sc> for secondary and <ac> for accent
+  colour in messages.'
+PRIMARY-COLOUR: '#FFAC1C'
+SECONDARY-COLOUR: '#EE4B2B'
+ACCENT-COLOUR: '#FFFFFF'
