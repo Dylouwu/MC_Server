@@ -10,5 +10,5 @@ channel-visibility: true
 session-reported: true
 token: TlVKMU5rZDVQRUYzT0VWNU5rWntPe1Y1UEIvSFNrcWpOL1lgZnZXTUVZW2tXZkxgZ2VbNG9aSWhMbnhabWBwa2haUHlLd3Ja
 voice-channel-id: '1242793002829746187'
-horizontal-radius: 80
+horizontal-radius: 60
 vertical-radius: 40

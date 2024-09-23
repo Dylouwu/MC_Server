@@ -321,6 +321,7 @@ SCATTERED:
   ERROR: '&cInvalid targets profile.'
   ALREADY-PLAYING: '&cThat player is already playing.'
   NOT-RUNNING: '&cYou can''t do this command while game is not running.'
+  BROADCAST: '&eScattered players: {scattered}/{total} ({percentage}%)'
 RESCATTERED:
   USAGE: '&cCorrect usage: /rescatter <player>'
   PLAYER: '{prefix} &eYou''ve re-scattered &a{target}&e.'
@@ -385,6 +386,10 @@ MLG:
   PLAYER-LUCK: '&eGood luck!'
   GLOBAL: '{prefix} &e{player} has accepted the MLG challenge!'
   USAGE: '&cCorrect usage: /mlg'
+  ALREADY-IN-PROGRESS: '&cYou are already in an MLG challenge!'
+  PLAYER-WIN: '&eCongratulations! You have completed the MLG challenge!'
+  GLOBAL-WIN: '{prefix} &e{player} has completed the MLG challenge!'
+  PLAYER-PROGRESS: '&eYou have completed {current}/{total} attempts. Keep going!'
 GOLDENHEAD:
   ALL: '&7You sent a Golden Head to all online users.'
   RECEIVE: '&7You received a Golden Head.'
@@ -545,6 +550,7 @@ DISABLED:
   SPEED: '&cSpeed potions are currently disabled.'
   GOLDEN-HEADS: '&cGolden Heads are currently disabled.'
   GOLDEN-APPLES: '&cGod Apples are currently disabled.'
+  ENCHANTED_GOLDEN-APPLES: '&cEnchanted Golden Apples are currently disabled.'
 NIGHTVISION:
   ENABLED: '&eNight vision enabled.'
   DISABLED: '&eNight vision disabled.'
