@@ -8,7 +8,16 @@ players-on-death-screen-included: true
 spectators-included: true
 channel-visibility: true
 session-reported: true
-token: TlVKMU5rZDVQRUYzT0VWNU5rWntPe1Y1UEIvSFNrcWpOL1lgZnZXTUVZW2tXZkxgZ2VbNG9aSWhMbnhabWBwa2haUHlLd3Ja
+token: lol
 voice-channel-id: '1242793002829746187'
 horizontal-radius: 60
 vertical-radius: 40
+release-channel: production
+text-chat: true
+separated-teams: false
+essentialsx-synchronization: true
+discordsrv-synchronization: true
+unreviewed-settings:
+- voice-chat
+- discord-integration
+- in-game-messages

@@ -574,10 +574,10 @@ BUILDUHC:
 SUPERHEROS:
   ENABLED: '&aYour super hero effects have been added!'
 DND:
-  CANT-DAMAGE: "&c&lDoNotDisturb &8\xbb &cYou can't hit this player!"
-  CAN-FIGHT: "&c&lDoNotDisturb &8\xbb &aYou can fight other players now!"
-  ONLY-FIGHT: "&c&lDoNotDisturb &8\xbb &cYou only can fight with &b{damager}!"
-  IN-FIGHT: "&c&lDoNotDisturb &8\xbb {damaged} is currently in a DND fight!"
+  CANT-DAMAGE: '&c&lDoNotDisturb &8» &cYou can''t hit this player!'
+  CAN-FIGHT: '&c&lDoNotDisturb &8» &aYou can fight other players now!'
+  ONLY-FIGHT: '&c&lDoNotDisturb &8» &cYou only can fight with &b{damager}!'
+  IN-FIGHT: '&c&lDoNotDisturb &8» {damaged} is currently in a DND fight!'
 LAFS:
   PLAYER-ALREADY-IN-PARTY: '&cThat player is already part of a party! Run around to
     find other teammates.'
