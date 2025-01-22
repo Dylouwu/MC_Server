@@ -48,8 +48,8 @@ I do not recommend allocating less than 8GB for the server.
 
 ### Step 4: Configure the Server
 - Customize server properties and plugins as needed.
-- Set up UHC scenarios, teams, and other gameplay configurations.
-- [FateUHC Documentation](https://fateuhc.bghddevelopment.com/) 
+- Set up UHC scenarios, teams, permissions, duel arenas, and more !
+- [FateUHC Documentation](https://fateuhc.bghddevelopment.com/)
 
 ---
 
