@@ -20,7 +20,7 @@ A fully-featured **UHC Server** running on **Paper 1.8.8** (formerly Spigot). Th
 Before running the server, ensure you have the following dependencies set up:
 1. **FateUHC License**: Required for UHC features.
 2. **Skoice Bot**: For proximity voice chat.
-3. **Database Setup**: Either **MySQL** or **MongoDB**.
+3. **Database Setup**: Either **MySQL** or **MongoDB**, and the server/service must be running before you start the server !
 
 ---
 
